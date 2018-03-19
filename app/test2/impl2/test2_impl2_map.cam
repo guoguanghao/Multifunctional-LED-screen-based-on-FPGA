@@ -1,0 +1,127 @@
+[ START MERGED ]
+n2836 u1/one_wire_N_283
+u2/n16014 u2/tens_3__N_314
+[ END MERGED ]
+[ START CLIPPED ]
+VCC_net
+u1/sub_748_add_2_1/S1
+u1/sub_748_add_2_1/S0
+u1/sub_748_add_2_1/CI
+u1/sub_748_add_2_3/S1
+u1/sub_748_add_2_3/S0
+u1/sub_748_add_2_5/S1
+u1/sub_748_add_2_5/S0
+u1/sub_748_add_2_7/S1
+u1/sub_748_add_2_7/S0
+u1/sub_748_add_2_9/S1
+u1/sub_748_add_2_9/S0
+u1/sub_748_add_2_11/S1
+u1/sub_748_add_2_11/S0
+u1/sub_748_add_2_13/S1
+u1/sub_748_add_2_13/S0
+u1/sub_748_add_2_15/S1
+u1/sub_748_add_2_15/S0
+u1/sub_748_add_2_17/S1
+u1/sub_748_add_2_17/S0
+u1/sub_748_add_2_19/S1
+u1/sub_748_add_2_19/S0
+u1/sub_748_add_2_21/S0
+u1/sub_748_add_2_21/CO
+u1/add_48_1/S0
+u1/add_48_1/CI
+u1/add_48_21/S1
+u1/add_48_21/CO
+u3/clk10KHz_uut/add_11597_24/S1
+u3/clk10KHz_uut/add_11597_24/S0
+u3/clk10KHz_uut/add_11597_26/S1
+u3/clk10KHz_uut/add_11597_26/S0
+u3/clk10KHz_uut/add_11597_28/S1
+u3/clk10KHz_uut/add_11597_28/S0
+u3/clk10KHz_uut/add_11597_30/S1
+u3/clk10KHz_uut/add_11597_30/S0
+u3/clk10KHz_uut/add_11597_32/S0
+u3/clk10KHz_uut/add_11597_32/CO
+u3/clk10KHz_uut/cnt_981_add_4_1/S0
+u3/clk10KHz_uut/cnt_981_add_4_1/CI
+u3/clk10KHz_uut/cnt_981_add_4_33/S1
+u3/clk10KHz_uut/cnt_981_add_4_33/CO
+u3/clk10KHz_uut/add_11597_2/S1
+u3/clk10KHz_uut/add_11597_2/S0
+u3/clk10KHz_uut/add_11597_2/CI
+u3/clk10KHz_uut/add_11597_4/S1
+u3/clk10KHz_uut/add_11597_4/S0
+u3/clk10KHz_uut/add_11597_6/S1
+u3/clk10KHz_uut/add_11597_6/S0
+u3/clk10KHz_uut/add_11597_8/S1
+u3/clk10KHz_uut/add_11597_8/S0
+u3/clk10KHz_uut/add_11597_10/S1
+u3/clk10KHz_uut/add_11597_10/S0
+u3/clk10KHz_uut/add_11597_12/S1
+u3/clk10KHz_uut/add_11597_12/S0
+u3/clk10KHz_uut/add_11597_14/S1
+u3/clk10KHz_uut/add_11597_14/S0
+u3/clk10KHz_uut/add_11597_16/S1
+u3/clk10KHz_uut/add_11597_16/S0
+u3/clk10KHz_uut/add_11597_18/S1
+u3/clk10KHz_uut/add_11597_18/S0
+u3/clk10KHz_uut/add_11597_20/S1
+u3/clk10KHz_uut/add_11597_20/S0
+u3/clk10KHz_uut/add_11597_22/S1
+u3/clk10KHz_uut/add_11597_22/S0
+u2/add_1450_1/S1
+u2/add_1450_1/S0
+u2/add_1450_1/CI
+u2/add_1450_9/CO
+[ END CLIPPED ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.9.0.99.2 -- WARNING: Map write only section -- Wed May 17 15:30:04 2017
+
+SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=DISABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE BACKGROUND_RECONFIG=OFF INBUF=ON ;
+LOCATE COMP "row[15]" SITE "N8" ;
+LOCATE COMP "one_wire" SITE "K12" ;
+LOCATE COMP "row[14]" SITE "G3" ;
+LOCATE COMP "row[13]" SITE "E3" ;
+LOCATE COMP "row[12]" SITE "H3" ;
+LOCATE COMP "row[11]" SITE "E12" ;
+LOCATE COMP "row[10]" SITE "F12" ;
+LOCATE COMP "row[9]" SITE "G12" ;
+LOCATE COMP "row[8]" SITE "F13" ;
+LOCATE COMP "row[7]" SITE "F14" ;
+LOCATE COMP "row[6]" SITE "G13" ;
+LOCATE COMP "row[5]" SITE "G14" ;
+LOCATE COMP "row[4]" SITE "H12" ;
+LOCATE COMP "row[3]" SITE "N5" ;
+LOCATE COMP "row[2]" SITE "P6" ;
+LOCATE COMP "row[1]" SITE "P7" ;
+LOCATE COMP "row[0]" SITE "N7" ;
+LOCATE COMP "line[7]" SITE "F3" ;
+LOCATE COMP "line[6]" SITE "J2" ;
+LOCATE COMP "line[5]" SITE "J3" ;
+LOCATE COMP "line[4]" SITE "K2" ;
+LOCATE COMP "line[3]" SITE "K3" ;
+LOCATE COMP "line[2]" SITE "L3" ;
+LOCATE COMP "line[1]" SITE "N6" ;
+LOCATE COMP "line[0]" SITE "P8" ;
+LOCATE COMP "segment_led_1[8]" SITE "C9" ;
+LOCATE COMP "segment_led_1[7]" SITE "F1" ;
+LOCATE COMP "segment_led_1[6]" SITE "B9" ;
+LOCATE COMP "segment_led_1[5]" SITE "A9" ;
+LOCATE COMP "segment_led_1[4]" SITE "E2" ;
+LOCATE COMP "segment_led_1[3]" SITE "E1" ;
+LOCATE COMP "segment_led_1[2]" SITE "F2" ;
+LOCATE COMP "segment_led_1[1]" SITE "C11" ;
+LOCATE COMP "segment_led_1[0]" SITE "A10" ;
+LOCATE COMP "segment_led_2[8]" SITE "A12" ;
+LOCATE COMP "segment_led_2[7]" SITE "K1" ;
+LOCATE COMP "segment_led_2[6]" SITE "A11" ;
+LOCATE COMP "segment_led_2[5]" SITE "B12" ;
+LOCATE COMP "segment_led_2[4]" SITE "H2" ;
+LOCATE COMP "segment_led_2[3]" SITE "H1" ;
+LOCATE COMP "segment_led_2[2]" SITE "J1" ;
+LOCATE COMP "segment_led_2[1]" SITE "B14" ;
+LOCATE COMP "segment_led_2[0]" SITE "C12" ;
+LOCATE COMP "clk_in" SITE "C1" ;
+LOCATE COMP "rst_n_in" SITE "L14" ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

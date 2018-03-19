@@ -1,0 +1,14 @@
+[Version]
+Version=10.3
+[Designs]
+SW_IR_Interface_tb=SW_IR_Interface_tb.adf
+[Settings]
+Active=SW_IR_Interface_tb
+[Expand]
+sw_ir_interface_tb=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

@@ -1,0 +1,8 @@
+CKID0001:@|S:un1_bcd_55_0@|E:memo_0_[0]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:un1_bcd_60_0_a5@|E:memo_2_[0]@|F:@syn_sample_clock_path1==CKID0002@|M:ClockId0002 
+CKID0003:@|S:un1_bcd_54_0_a5@|E:memo_0_[4]@|F:@syn_sample_clock_path==CKID0003@|M:ClockId0003 
+CKID0004:@|S:bcd_pad_RNILFBQ[1]@|E:memo_2_[1]@|F:@syn_sample_clock_path==CKID0004@|M:ClockId0004 
+CKID0005:@|S:un1_bcd_58_0@|E:memo_1_[0]@|F:@syn_sample_clock_path==CKID0005@|M:ClockId0005 
+CKID0006:@|S:memo_0__RNO[1]@|E:memo_0_[1]@|F:@syn_sample_clock_path==CKID0006@|M:ClockId0006 
+CKID0007:@|S:un1_bcd_56_0_a5@|E:memo_1_[7]@|F:@syn_sample_clock_path==CKID0007@|M:ClockId0007 
+CKID0008:@|S:un1_bcd_53_0@|E:memo_0_[5]@|F:@syn_sample_clock_path==CKID0008@|M:ClockId0008 

@@ -1,0 +1,3 @@
+@E: CG285 :"D:\FPGA\example\test2\led_scan.v":63:1:63:6|Expecting statement
+@E: CS187 :"D:\FPGA\example\test2\led_scan.v":87:1:87:9|Expecting endmodule
+

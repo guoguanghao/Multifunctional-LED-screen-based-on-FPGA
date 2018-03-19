@@ -1,0 +1,11 @@
+5
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 3 "./../../SW_IR_Interface_tb.v" 2 SW_IR_Interface_tb
+~A 1 "./../../SW_IR_Interface_tb.v" 2 SW_IR_Interface_tb
+~M 1 "./../../SW_IR_Interface.v" 1 Sensor_IR
+~A 1 "./../../SW_IR_Interface.v" 1 Sensor_IR
+~M 3 "./../../debounce.v" 1 debounce
+~A 1 "./../../debounce.v" 1 debounce
+~M 3 "./../../delay1us.v" 1 delay1us
+~A 1 "./../../delay1us.v" 1 delay1us

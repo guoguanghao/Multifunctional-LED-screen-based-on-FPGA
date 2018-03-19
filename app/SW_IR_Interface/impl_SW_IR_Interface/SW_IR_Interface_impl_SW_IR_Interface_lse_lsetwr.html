@@ -1,0 +1,378 @@
+<HTML>
+<HEAD><TITLE>Lattice Synthesis Timing Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Map_Twr"></A><B><U><big>Lattice Synthesis Timing Report</big></U></B>
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Wed May 17 15:43:45 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+<A name="mtw1_ri"></A><B><U><big>Report Information</big></U></B>
+------------------
+Design:     Sensor_IR
+Constraint file:  
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 1000.000000 -name clk1 [get_nets clk_c]
+            1094 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 989.452ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3IX    CK             \clk10KHz_uut/cnt_520__i0  (from clk_c +)
+   Destination:    FD1P3IX    SP             row_i0_i11  (to clk_c +)
+
+   Delay:                  10.263ns  (44.4% logic, 55.6% route), 18 logic levels.
+
+ Constraint Details:
+
+     10.263ns data_path \clk10KHz_uut/cnt_520__i0 to row_i0_i11 meets
+    1000.000ns delay constraint less
+      0.285ns LCE_S requirement (totaling 999.715ns) by 989.452ns
+
+ Path Details: \clk10KHz_uut/cnt_520__i0 to row_i0_i11
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              \clk10KHz_uut/cnt_520__i0 (from clk_c)
+Route         2   e 1.198                                  \clk10KHz_uut/cnt[0]
+A1_TO_FCO   ---     0.827           B[2] to COUT           \clk10KHz_uut/add_4274_2
+Route         1   e 0.020                                  \clk10KHz_uut/n5540
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_4
+Route         1   e 0.020                                  \clk10KHz_uut/n5541
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_6
+Route         1   e 0.020                                  \clk10KHz_uut/n5542
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_8
+Route         1   e 0.020                                  \clk10KHz_uut/n5543
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_10
+Route         1   e 0.020                                  \clk10KHz_uut/n5544
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_12
+Route         1   e 0.020                                  \clk10KHz_uut/n5545
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_14
+Route         1   e 0.020                                  \clk10KHz_uut/n5546
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_16
+Route         1   e 0.020                                  \clk10KHz_uut/n5547
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_18
+Route         1   e 0.020                                  \clk10KHz_uut/n5548
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_20
+Route         1   e 0.020                                  \clk10KHz_uut/n5549
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_22
+Route         1   e 0.020                                  \clk10KHz_uut/n5550
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_24
+Route         1   e 0.020                                  \clk10KHz_uut/n5551
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_26
+Route         1   e 0.020                                  \clk10KHz_uut/n5552
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_28
+Route         1   e 0.020                                  \clk10KHz_uut/n5553
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_30
+Route         1   e 0.020                                  \clk10KHz_uut/n5554
+FCI_TO_F    ---     0.598            CIN to S[2]           \clk10KHz_uut/add_4274_32
+Route        35   e 2.390                                  cnt_31__N_430
+LUT4        ---     0.493              B to Z              i5156_2_lut_rep_166
+Route        16   e 1.815                                  clk_c_enable_20
+                  --------
+                   10.263  (44.4% logic, 55.6% route), 18 logic levels.
+
+
+Passed:  The following path meets requirements by 989.452ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3IX    CK             \clk10KHz_uut/cnt_520__i0  (from clk_c +)
+   Destination:    FD1P3IX    SP             row_i0_i10  (to clk_c +)
+
+   Delay:                  10.263ns  (44.4% logic, 55.6% route), 18 logic levels.
+
+ Constraint Details:
+
+     10.263ns data_path \clk10KHz_uut/cnt_520__i0 to row_i0_i10 meets
+    1000.000ns delay constraint less
+      0.285ns LCE_S requirement (totaling 999.715ns) by 989.452ns
+
+ Path Details: \clk10KHz_uut/cnt_520__i0 to row_i0_i10
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              \clk10KHz_uut/cnt_520__i0 (from clk_c)
+Route         2   e 1.198                                  \clk10KHz_uut/cnt[0]
+A1_TO_FCO   ---     0.827           B[2] to COUT           \clk10KHz_uut/add_4274_2
+Route         1   e 0.020                                  \clk10KHz_uut/n5540
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_4
+Route         1   e 0.020                                  \clk10KHz_uut/n5541
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_6
+Route         1   e 0.020                                  \clk10KHz_uut/n5542
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_8
+Route         1   e 0.020                                  \clk10KHz_uut/n5543
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_10
+Route         1   e 0.020                                  \clk10KHz_uut/n5544
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_12
+Route         1   e 0.020                                  \clk10KHz_uut/n5545
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_14
+Route         1   e 0.020                                  \clk10KHz_uut/n5546
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_16
+Route         1   e 0.020                                  \clk10KHz_uut/n5547
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_18
+Route         1   e 0.020                                  \clk10KHz_uut/n5548
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_20
+Route         1   e 0.020                                  \clk10KHz_uut/n5549
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_22
+Route         1   e 0.020                                  \clk10KHz_uut/n5550
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_24
+Route         1   e 0.020                                  \clk10KHz_uut/n5551
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_26
+Route         1   e 0.020                                  \clk10KHz_uut/n5552
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_28
+Route         1   e 0.020                                  \clk10KHz_uut/n5553
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_30
+Route         1   e 0.020                                  \clk10KHz_uut/n5554
+FCI_TO_F    ---     0.598            CIN to S[2]           \clk10KHz_uut/add_4274_32
+Route        35   e 2.390                                  cnt_31__N_430
+LUT4        ---     0.493              B to Z              i5156_2_lut_rep_166
+Route        16   e 1.815                                  clk_c_enable_20
+                  --------
+                   10.263  (44.4% logic, 55.6% route), 18 logic levels.
+
+
+Passed:  The following path meets requirements by 989.452ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3IX    CK             \clk10KHz_uut/cnt_520__i0  (from clk_c +)
+   Destination:    FD1P3IX    SP             row_i0_i9  (to clk_c +)
+
+   Delay:                  10.263ns  (44.4% logic, 55.6% route), 18 logic levels.
+
+ Constraint Details:
+
+     10.263ns data_path \clk10KHz_uut/cnt_520__i0 to row_i0_i9 meets
+    1000.000ns delay constraint less
+      0.285ns LCE_S requirement (totaling 999.715ns) by 989.452ns
+
+ Path Details: \clk10KHz_uut/cnt_520__i0 to row_i0_i9
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              \clk10KHz_uut/cnt_520__i0 (from clk_c)
+Route         2   e 1.198                                  \clk10KHz_uut/cnt[0]
+A1_TO_FCO   ---     0.827           B[2] to COUT           \clk10KHz_uut/add_4274_2
+Route         1   e 0.020                                  \clk10KHz_uut/n5540
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_4
+Route         1   e 0.020                                  \clk10KHz_uut/n5541
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_6
+Route         1   e 0.020                                  \clk10KHz_uut/n5542
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_8
+Route         1   e 0.020                                  \clk10KHz_uut/n5543
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_10
+Route         1   e 0.020                                  \clk10KHz_uut/n5544
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_12
+Route         1   e 0.020                                  \clk10KHz_uut/n5545
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_14
+Route         1   e 0.020                                  \clk10KHz_uut/n5546
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_16
+Route         1   e 0.020                                  \clk10KHz_uut/n5547
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_18
+Route         1   e 0.020                                  \clk10KHz_uut/n5548
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_20
+Route         1   e 0.020                                  \clk10KHz_uut/n5549
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_22
+Route         1   e 0.020                                  \clk10KHz_uut/n5550
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_24
+Route         1   e 0.020                                  \clk10KHz_uut/n5551
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_26
+Route         1   e 0.020                                  \clk10KHz_uut/n5552
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_28
+Route         1   e 0.020                                  \clk10KHz_uut/n5553
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk10KHz_uut/add_4274_30
+Route         1   e 0.020                                  \clk10KHz_uut/n5554
+FCI_TO_F    ---     0.598            CIN to S[2]           \clk10KHz_uut/add_4274_32
+Route        35   e 2.390                                  cnt_31__N_430
+LUT4        ---     0.493              B to Z              i5156_2_lut_rep_166
+Route        16   e 1.815                                  clk_c_enable_20
+                  --------
+                   10.263  (44.4% logic, 55.6% route), 18 logic levels.
+
+Report: 10.548 ns is the maximum delay for this constraint.
+
+
+
+================================================================================
+Constraint: create_clock -period 1000.000000 -name clk0 [get_nets low_sw[0]_derived_4]
+            4 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 996.500ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3AX    CK             roll_hold_84  (from low_sw[0]_derived_4 +)
+   Destination:    FD1P3AX    D              roll_hold_84  (to low_sw[0]_derived_4 +)
+
+   Delay:                   3.340ns  (28.1% logic, 71.9% route), 2 logic levels.
+
+ Constraint Details:
+
+      3.340ns data_path roll_hold_84 to roll_hold_84 meets
+    1000.000ns delay constraint less
+      0.160ns L_S requirement (totaling 999.840ns) by 996.500ns
+
+ Path Details: roll_hold_84 to roll_hold_84
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              roll_hold_84 (from low_sw[0]_derived_4)
+Route         5   e 1.462                                  roll_hold
+LUT4        ---     0.493              C to Z              \debounce_uut/roll_hold_I_0_2_lut_3_lut
+Route         1   e 0.941                                  roll_hold_N_245
+                  --------
+                    3.340  (28.1% logic, 71.9% route), 2 logic levels.
+
+
+Passed:  The following path meets requirements by 998.081ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3AX    CK             rst_group_FSM_i0_i2  (from low_sw[0]_derived_4 +)
+   Destination:    FD1S3AX    D              rst_group_FSM_i0_i1  (to low_sw[0]_derived_4 +)
+
+   Delay:                   1.759ns  (25.2% logic, 74.8% route), 1 logic levels.
+
+ Constraint Details:
+
+      1.759ns data_path rst_group_FSM_i0_i2 to rst_group_FSM_i0_i1 meets
+    1000.000ns delay constraint less
+      0.160ns L_S requirement (totaling 999.840ns) by 998.081ns
+
+ Path Details: rst_group_FSM_i0_i2 to rst_group_FSM_i0_i1
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              rst_group_FSM_i0_i2 (from low_sw[0]_derived_4)
+Route         3   e 1.315                                  rst_group_c_1
+                  --------
+                    1.759  (25.2% logic, 74.8% route), 1 logic levels.
+
+
+Passed:  The following path meets requirements by 998.081ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3AY    CK             rst_group_FSM_i0_i3  (from low_sw[0]_derived_4 +)
+   Destination:    FD1S3AX    D              rst_group_FSM_i0_i2  (to low_sw[0]_derived_4 +)
+
+   Delay:                   1.759ns  (25.2% logic, 74.8% route), 1 logic levels.
+
+ Constraint Details:
+
+      1.759ns data_path rst_group_FSM_i0_i3 to rst_group_FSM_i0_i2 meets
+    1000.000ns delay constraint less
+      0.160ns L_S requirement (totaling 999.840ns) by 998.081ns
+
+ Path Details: rst_group_FSM_i0_i3 to rst_group_FSM_i0_i2
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              rst_group_FSM_i0_i3 (from low_sw[0]_derived_4)
+Route         3   e 1.315                                  rst_group_c_0
+                  --------
+                    1.759  (25.2% logic, 74.8% route), 1 logic levels.
+
+Report: 3.500 ns is the maximum delay for this constraint.
+
+
+<A name="mtw1_rs"></A><B><U><big>Timing Report Summary</big></U></B>
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk1 [get_nets clk_c]                   |  1000.000 ns|    10.548 ns|    18  
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk0 [get_nets low_sw[0]_derived_4]     |  1000.000 ns|     3.500 ns|     2  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+
+<A name="mtw1_ts"></A><B><U><big>Timing summary:</big></U></B>
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover  4788 paths, 289 nets, and 615 connections (33.5% coverage)
+
+
+Peak memory: 74280960 bytes, TRCE: 3715072 bytes, DLYMAN: 0 bytes
+CPU_TIME_REPORT: 0 secs 
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

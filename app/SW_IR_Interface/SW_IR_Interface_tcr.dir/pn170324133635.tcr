@@ -1,0 +1,4 @@
+#Start recording tcl command: 3/24/2017 13:36:05
+#Project Location: F:/MCU_FPGA/STEP/MyExample/Expand_Board/Interface/SW_IR_Interface; Project name: SW_IR_Interface
+prj_project open "F:/MCU_FPGA/STEP/MyExample/Expand_Board/Interface/SW_IR_Interface/SW_IR_Interface.ldf"
+#Stop recording: 3/24/2017 13:36:35

@@ -1,0 +1,600 @@
+
+          Lattice Mapping Report File for Design Module 'Sensor_IR'
+
+
+Design Information
+------------------
+
+Command line:   map -a MachXO2 -p LCMXO2-4000HC -t CSBGA132 -s 4 -oc Commercial
+     SW_IR_Interface_impl_SW_IR_Interface.ngd -o
+     SW_IR_Interface_impl_SW_IR_Interface_map.ncd -pr
+     SW_IR_Interface_impl_SW_IR_Interface.prf -mp
+     SW_IR_Interface_impl_SW_IR_Interface.mrp -lpf D:/graduate project/code/SW_I
+     R_Interface/impl_SW_IR_Interface/SW_IR_Interface_impl_SW_IR_Interface.lpf
+     -lpf D:/graduate project/code/SW_IR_Interface/SW_IR_Interface.lpf -c 0 -gui
+     -msgset D:/graduate project/code/SW_IR_Interface/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-4000HCCSBGA132
+Target Performance:   4
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.9.0.99.2
+Mapped on:  05/17/17  15:43:46
+
+Design Summary
+--------------
+
+   Number of registers:    112 out of  4635 (2%)
+      PFU registers:          112 out of  4320 (3%)
+      PIO registers:            0 out of   315 (0%)
+   Number of SLICEs:       230 out of  2160 (11%)
+      SLICEs as Logic/ROM:    230 out of  2160 (11%)
+      SLICEs as RAM:            0 out of  1620 (0%)
+      SLICEs as Carry:         76 out of  2160 (4%)
+   Number of LUT4s:        460 out of  4320 (11%)
+      Number used as logic LUTs:        308
+      Number used as distributed RAM:     0
+      Number used as ripple logic:      152
+      Number used as shift registers:     0
+   Number of PIO sites used: 41 + 4(JTAG) out of 105 (43%)
+   Number of block RAMs:  0 out of 10 (0%)
+   Number of GSRs:  1 out of 1 (100%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  2
+
+                                    Page 1
+
+
+
+
+Design:  Sensor_IR                                     Date:  05/17/17  15:43:46
+
+Design Summary (cont)
+---------------------
+     Net debounce_uut/low_sw[0]_derived_4: 3 loads, 3 rising, 0 falling (Driver:
+     debounce_uut/low_sw_r_0__I_0_2_lut_rep_186 )
+     Net clk_c: 60 loads, 60 rising, 0 falling (Driver: PIO clk )
+   Number of Clock Enables:  4
+     Net rst_c: 1 loads, 1 LSLICEs
+     Net clk_c_enable_20: 8 loads, 8 LSLICEs
+     Net clk_c_enable_9: 3 loads, 3 LSLICEs
+     Net debounce_uut/clk_c_enable_10: 1 loads, 1 LSLICEs
+   Number of LSRs:  5
+     Net n2783: 8 loads, 8 LSLICEs
+     Net n1705: 4 loads, 4 LSLICEs
+     Net cnt_31__N_361: 17 loads, 17 LSLICEs
+     Net cnt_31__N_430: 17 loads, 17 LSLICEs
+     Net debounce_uut/key_an: 10 loads, 10 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net line_7_N_228_1: 96 loads
+     Net line_7_N_236_0: 90 loads
+     Net line_7_N_212_2: 79 loads
+     Net temp_cnt_3: 52 loads
+     Net row_c_8: 25 loads
+     Net row_c_9: 22 loads
+     Net row_c_0: 21 loads
+     Net row_c_12: 21 loads
+     Net row_c_4: 21 loads
+     Net row_c_6: 21 loads
+
+
+
+
+   Number of warnings:  0
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+   No errors or warnings present.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| led[5]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| rgb_led2[0]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| rgb_led2[1]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| led[3]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| rst_group[0]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+                                    Page 2
+
+
+
+
+Design:  Sensor_IR                                     Date:  05/17/17  15:43:46
+
+IO (PIO) Attributes (cont)
+--------------------------
+| led[6]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| led[4]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| led[2]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ir                  | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| rst                 | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| clk                 | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| line[0]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| line[1]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| line[2]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| line[3]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| line[4]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| line[5]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| line[6]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| line[7]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| row[0]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| row[1]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| row[2]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| row[3]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| row[4]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| row[5]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| row[6]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| row[7]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| row[8]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| row[9]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| row[10]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| row[11]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| row[12]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| row[13]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+                                    Page 3
+
+
+
+
+Design:  Sensor_IR                                     Date:  05/17/17  15:43:46
+
+IO (PIO) Attributes (cont)
+--------------------------
+| row[14]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| row[15]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| led[0]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| led[1]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| rst_group[1]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| rst_group[2]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| rgb_led2[2]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| led[7]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+Removed logic
+-------------
+
+Signal GND_net undriven or does not drive anything - clipped.
+Signal debounce_uut/cnt_518_add_4_1/S0 undriven or does not drive anything -
+     clipped.
+Signal debounce_uut/cnt_518_add_4_1/CI undriven or does not drive anything -
+     clipped.
+Signal debounce_uut/cnt_518_add_4_19/CO undriven or does not drive anything -
+     clipped.
+Signal clk1Hz_uut/add_4275_10/S1 undriven or does not drive anything - clipped.
+Signal clk1Hz_uut/add_4275_10/S0 undriven or does not drive anything - clipped.
+Signal clk1Hz_uut/add_4275_12/S1 undriven or does not drive anything - clipped.
+Signal clk1Hz_uut/add_4275_12/S0 undriven or does not drive anything - clipped.
+Signal clk1Hz_uut/add_4275_14/S1 undriven or does not drive anything - clipped.
+Signal clk1Hz_uut/add_4275_14/S0 undriven or does not drive anything - clipped.
+Signal clk1Hz_uut/add_4275_16/S1 undriven or does not drive anything - clipped.
+Signal clk1Hz_uut/add_4275_16/S0 undriven or does not drive anything - clipped.
+Signal clk1Hz_uut/add_4275_18/S1 undriven or does not drive anything - clipped.
+Signal clk1Hz_uut/add_4275_18/S0 undriven or does not drive anything - clipped.
+Signal clk1Hz_uut/add_4275_20/S1 undriven or does not drive anything - clipped.
+Signal clk1Hz_uut/add_4275_20/S0 undriven or does not drive anything - clipped.
+Signal clk1Hz_uut/add_4275_22/S1 undriven or does not drive anything - clipped.
+Signal clk1Hz_uut/add_4275_22/S0 undriven or does not drive anything - clipped.
+Signal clk1Hz_uut/add_4275_24/S1 undriven or does not drive anything - clipped.
+Signal clk1Hz_uut/add_4275_24/S0 undriven or does not drive anything - clipped.
+Signal clk1Hz_uut/add_4275_26/S1 undriven or does not drive anything - clipped.
+Signal clk1Hz_uut/add_4275_26/S0 undriven or does not drive anything - clipped.
+Signal clk1Hz_uut/add_4275_28/S1 undriven or does not drive anything - clipped.
+Signal clk1Hz_uut/add_4275_28/S0 undriven or does not drive anything - clipped.
+Signal clk1Hz_uut/add_4275_30/S1 undriven or does not drive anything - clipped.
+Signal clk1Hz_uut/add_4275_30/S0 undriven or does not drive anything - clipped.
+Signal clk1Hz_uut/add_4275_32/S0 undriven or does not drive anything - clipped.
+Signal clk1Hz_uut/add_4275_32/CO undriven or does not drive anything - clipped.
+Signal clk1Hz_uut/cnt_519_add_4_33/S1 undriven or does not drive anything -
+     clipped.
+Signal clk1Hz_uut/cnt_519_add_4_33/CO undriven or does not drive anything -
+     clipped.
+Signal clk1Hz_uut/cnt_519_add_4_1/S0 undriven or does not drive anything -
+
+                                    Page 4
+
+
+
+
+Design:  Sensor_IR                                     Date:  05/17/17  15:43:46
+
+Removed logic (cont)
+--------------------
+     clipped.
+Signal clk1Hz_uut/cnt_519_add_4_1/CI undriven or does not drive anything -
+     clipped.
+Signal clk1Hz_uut/add_4275_2/S1 undriven or does not drive anything - clipped.
+Signal clk1Hz_uut/add_4275_2/S0 undriven or does not drive anything - clipped.
+Signal clk1Hz_uut/add_4275_2/CI undriven or does not drive anything - clipped.
+Signal clk1Hz_uut/add_4275_4/S1 undriven or does not drive anything - clipped.
+Signal clk1Hz_uut/add_4275_4/S0 undriven or does not drive anything - clipped.
+Signal clk1Hz_uut/add_4275_6/S1 undriven or does not drive anything - clipped.
+Signal clk1Hz_uut/add_4275_6/S0 undriven or does not drive anything - clipped.
+Signal clk1Hz_uut/add_4275_8/S1 undriven or does not drive anything - clipped.
+Signal clk1Hz_uut/add_4275_8/S0 undriven or does not drive anything - clipped.
+Signal clk10KHz_uut/add_4274_2/S1 undriven or does not drive anything - clipped.
+     
+Signal clk10KHz_uut/add_4274_2/S0 undriven or does not drive anything - clipped.
+     
+Signal clk10KHz_uut/add_4274_2/CI undriven or does not drive anything - clipped.
+     
+Signal clk10KHz_uut/add_4274_4/S1 undriven or does not drive anything - clipped.
+     
+Signal clk10KHz_uut/add_4274_4/S0 undriven or does not drive anything - clipped.
+     
+Signal clk10KHz_uut/add_4274_6/S1 undriven or does not drive anything - clipped.
+     
+Signal clk10KHz_uut/add_4274_6/S0 undriven or does not drive anything - clipped.
+     
+Signal clk10KHz_uut/cnt_520_add_4_1/S0 undriven or does not drive anything -
+     clipped.
+Signal clk10KHz_uut/cnt_520_add_4_1/CI undriven or does not drive anything -
+     clipped.
+Signal clk10KHz_uut/add_4274_8/S1 undriven or does not drive anything - clipped.
+     
+Signal clk10KHz_uut/add_4274_8/S0 undriven or does not drive anything - clipped.
+     
+Signal clk10KHz_uut/add_4274_10/S1 undriven or does not drive anything -
+     clipped.
+Signal clk10KHz_uut/add_4274_10/S0 undriven or does not drive anything -
+     clipped.
+Signal clk10KHz_uut/add_4274_12/S1 undriven or does not drive anything -
+     clipped.
+Signal clk10KHz_uut/add_4274_12/S0 undriven or does not drive anything -
+     clipped.
+Signal clk10KHz_uut/add_4274_14/S1 undriven or does not drive anything -
+     clipped.
+Signal clk10KHz_uut/add_4274_14/S0 undriven or does not drive anything -
+     clipped.
+Signal clk10KHz_uut/add_4274_16/S1 undriven or does not drive anything -
+     clipped.
+Signal clk10KHz_uut/add_4274_16/S0 undriven or does not drive anything -
+     clipped.
+Signal clk10KHz_uut/add_4274_18/S1 undriven or does not drive anything -
+     clipped.
+Signal clk10KHz_uut/add_4274_18/S0 undriven or does not drive anything -
+     clipped.
+Signal clk10KHz_uut/add_4274_20/S1 undriven or does not drive anything -
+     clipped.
+
+                                    Page 5
+
+
+
+
+Design:  Sensor_IR                                     Date:  05/17/17  15:43:46
+
+Removed logic (cont)
+--------------------
+Signal clk10KHz_uut/add_4274_20/S0 undriven or does not drive anything -
+     clipped.
+Signal clk10KHz_uut/add_4274_22/S1 undriven or does not drive anything -
+     clipped.
+Signal clk10KHz_uut/add_4274_22/S0 undriven or does not drive anything -
+     clipped.
+Signal clk10KHz_uut/add_4274_24/S1 undriven or does not drive anything -
+     clipped.
+Signal clk10KHz_uut/add_4274_24/S0 undriven or does not drive anything -
+     clipped.
+Signal clk10KHz_uut/add_4274_26/S1 undriven or does not drive anything -
+     clipped.
+Signal clk10KHz_uut/add_4274_26/S0 undriven or does not drive anything -
+     clipped.
+Signal clk10KHz_uut/add_4274_28/S1 undriven or does not drive anything -
+     clipped.
+Signal clk10KHz_uut/add_4274_28/S0 undriven or does not drive anything -
+     clipped.
+Signal clk10KHz_uut/add_4274_30/S1 undriven or does not drive anything -
+     clipped.
+Signal clk10KHz_uut/add_4274_30/S0 undriven or does not drive anything -
+     clipped.
+Signal clk10KHz_uut/add_4274_32/S0 undriven or does not drive anything -
+     clipped.
+Signal clk10KHz_uut/add_4274_32/CO undriven or does not drive anything -
+     clipped.
+Signal clk10KHz_uut/cnt_520_add_4_33/S1 undriven or does not drive anything -
+     clipped.
+Signal clk10KHz_uut/cnt_520_add_4_33/CO undriven or does not drive anything -
+     clipped.
+Block i1 was optimized away.
+
+Memory Usage
+------------
+
+
+     
+
+GSR Usage
+---------
+
+GSR Component:
+   The Global Set Reset (GSR) resource has been used to implement a global reset
+        of the design. The reset signal used for GSR control is 'rst_c'.
+        
+
+     GSR Property:
+   The design components with GSR property set to ENABLED will respond to global
+        set reset while the components with GSR property set to DISABLED will
+        not.
+        
+
+     Components with disabled GSR Property
+-------------------------------------
+
+     These components have the GSR property set to DISABLED. The components will
+
+                                    Page 6
+
+
+
+
+Design:  Sensor_IR                                     Date:  05/17/17  15:43:46
+
+GSR Usage (cont)
+----------------
+     not respond to the reset signal 'rst_c' via the GSR component.
+
+     Type and number of components of the type: 
+   Register = 21 
+
+     Type and instance name of component: 
+   Register : row_i0_i12
+   Register : row_i0_i13
+   Register : row_i0_i14
+   Register : row_i0_i15
+   Register : row_i0_i16
+   Register : row_i0_i1
+   Register : temp_cnt__i4
+   Register : temp_cnt__i3
+   Register : temp_cnt__i2
+   Register : roll_hold_84
+   Register : row_i0_i2
+   Register : row_i0_i3
+   Register : row_i0_i4
+   Register : row_i0_i5
+   Register : row_i0_i6
+   Register : row_i0_i7
+   Register : row_i0_i8
+   Register : row_i0_i9
+   Register : row_i0_i10
+   Register : temp_cnt__i1
+   Register : row_i0_i11
+
+     Components with synchronous local reset also reset by asynchronous GSR
+----------------------------------------------------------------------
+
+     These components have the GSR property set to ENABLED and the local reset
+     is synchronous. The components will respond to the synchronous local reset
+     and to the unrelated asynchronous reset signal 'rst_c' via the GSR
+     component.
+
+     Type and number of components of the type: 
+   Register = 83 
+
+     Type and instance name of component: 
+   Register : clk10KHz_uut/cnt_520__i0
+   Register : clk10KHz_uut/cnt_520__i31
+   Register : clk10KHz_uut/cnt_520__i30
+   Register : clk10KHz_uut/cnt_520__i29
+   Register : clk10KHz_uut/cnt_520__i28
+   Register : clk10KHz_uut/cnt_520__i27
+   Register : clk10KHz_uut/cnt_520__i26
+   Register : clk10KHz_uut/cnt_520__i25
+   Register : clk10KHz_uut/cnt_520__i24
+   Register : clk10KHz_uut/cnt_520__i23
+   Register : clk10KHz_uut/cnt_520__i22
+   Register : clk10KHz_uut/cnt_520__i21
+   Register : clk10KHz_uut/cnt_520__i20
+   Register : clk10KHz_uut/cnt_520__i19
+   Register : clk10KHz_uut/cnt_520__i18
+   Register : clk10KHz_uut/cnt_520__i17
+
+                                    Page 7
+
+
+
+
+Design:  Sensor_IR                                     Date:  05/17/17  15:43:46
+
+GSR Usage (cont)
+----------------
+   Register : clk10KHz_uut/cnt_520__i16
+   Register : clk10KHz_uut/cnt_520__i15
+   Register : clk10KHz_uut/cnt_520__i14
+   Register : clk10KHz_uut/cnt_520__i13
+   Register : clk10KHz_uut/cnt_520__i12
+   Register : clk10KHz_uut/cnt_520__i11
+   Register : clk10KHz_uut/cnt_520__i10
+   Register : clk10KHz_uut/cnt_520__i9
+   Register : clk10KHz_uut/cnt_520__i8
+   Register : clk10KHz_uut/cnt_520__i7
+   Register : clk10KHz_uut/cnt_520__i6
+   Register : clk10KHz_uut/cnt_520__i5
+   Register : clk10KHz_uut/cnt_520__i4
+   Register : clk10KHz_uut/cnt_520__i3
+   Register : clk10KHz_uut/cnt_520__i2
+   Register : clk10KHz_uut/cnt_520__i1
+   Register : clk1Hz_uut/cnt_519__i0
+   Register : clk1Hz_uut/cnt_519__i31
+   Register : clk1Hz_uut/cnt_519__i30
+   Register : clk1Hz_uut/cnt_519__i29
+   Register : clk1Hz_uut/cnt_519__i28
+   Register : clk1Hz_uut/cnt_519__i27
+   Register : clk1Hz_uut/cnt_519__i26
+   Register : clk1Hz_uut/cnt_519__i25
+   Register : clk1Hz_uut/cnt_519__i24
+   Register : clk1Hz_uut/cnt_519__i23
+   Register : clk1Hz_uut/cnt_519__i22
+   Register : clk1Hz_uut/cnt_519__i21
+   Register : clk1Hz_uut/cnt_519__i20
+   Register : clk1Hz_uut/cnt_519__i19
+   Register : clk1Hz_uut/cnt_519__i18
+   Register : clk1Hz_uut/cnt_519__i17
+   Register : clk1Hz_uut/cnt_519__i16
+   Register : clk1Hz_uut/cnt_519__i15
+   Register : clk1Hz_uut/cnt_519__i14
+   Register : clk1Hz_uut/cnt_519__i13
+   Register : clk1Hz_uut/cnt_519__i12
+   Register : clk1Hz_uut/cnt_519__i11
+   Register : clk1Hz_uut/cnt_519__i10
+   Register : clk1Hz_uut/cnt_519__i9
+   Register : clk1Hz_uut/cnt_519__i8
+   Register : clk1Hz_uut/cnt_519__i7
+   Register : clk1Hz_uut/cnt_519__i6
+   Register : clk1Hz_uut/cnt_519__i5
+   Register : clk1Hz_uut/cnt_519__i4
+   Register : clk1Hz_uut/cnt_519__i3
+   Register : clk1Hz_uut/cnt_519__i2
+   Register : clk1Hz_uut/cnt_519__i1
+   Register : debounce_uut/cnt_518__i0
+   Register : debounce_uut/cnt_518__i18
+   Register : debounce_uut/cnt_518__i17
+   Register : debounce_uut/cnt_518__i16
+   Register : debounce_uut/cnt_518__i15
+   Register : debounce_uut/cnt_518__i14
+   Register : debounce_uut/cnt_518__i13
+   Register : debounce_uut/cnt_518__i12
+
+                                    Page 8
+
+
+
+
+Design:  Sensor_IR                                     Date:  05/17/17  15:43:46
+
+GSR Usage (cont)
+----------------
+   Register : debounce_uut/cnt_518__i11
+   Register : debounce_uut/cnt_518__i10
+   Register : debounce_uut/cnt_518__i9
+   Register : debounce_uut/cnt_518__i8
+   Register : debounce_uut/cnt_518__i7
+   Register : debounce_uut/cnt_518__i6
+   Register : debounce_uut/cnt_518__i5
+   Register : debounce_uut/cnt_518__i4
+   Register : debounce_uut/cnt_518__i3
+   Register : debounce_uut/cnt_518__i2
+   Register : debounce_uut/cnt_518__i1
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 49 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    Page 9
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights
+     reserved.

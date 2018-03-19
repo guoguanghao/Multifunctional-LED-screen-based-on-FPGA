@@ -1,0 +1,5 @@
+@W: BN132 :"d:\fpga\example\test2\number.v":8:3:8:6|Removing sequential instance memo_3_[7] because it is equivalent to instance memo_2_[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\fpga\example\test2\number.v":8:3:8:6|Removing sequential instance memo_3_[4] because it is equivalent to instance memo_2_[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\fpga\example\test2\number.v":8:3:8:6|Removing sequential instance memo_2_[5] because it is equivalent to instance memo_2_[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\fpga\example\test2\number.v":8:3:8:6|Removing sequential instance memo_3_[0] because it is equivalent to instance memo_2_[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: MT531 :"d:\fpga\example\test2\number.v":8:3:8:6|Found signal identified as System clock which controls 14 sequential elements including memo_1_[7].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 

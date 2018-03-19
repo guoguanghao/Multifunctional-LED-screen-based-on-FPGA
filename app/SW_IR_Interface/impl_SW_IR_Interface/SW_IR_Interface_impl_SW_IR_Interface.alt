@@ -1,0 +1,49 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Wed May 17 15:44:02 2017 *
+NOTE DESIGN NAME: Sensor_IR *
+NOTE DEVICE NAME: LCMXO2-4000HC-4CSBGA132 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS led[5] : N10 : out *
+NOTE PINS rgb_led2[0] : P4 : out *
+NOTE PINS rgb_led2[1] : N3 : out *
+NOTE PINS led[3] : M11 : out *
+NOTE PINS rst_group[0] : M2 : out *
+NOTE PINS led[6] : N9 : out *
+NOTE PINS led[4] : P11 : out *
+NOTE PINS led[2] : P12 : out *
+NOTE PINS ir : J14 : in *
+NOTE PINS rst : L14 : in *
+NOTE PINS clk : C1 : in *
+NOTE PINS line[0] : P8 : out *
+NOTE PINS line[1] : N6 : out *
+NOTE PINS line[2] : L3 : out *
+NOTE PINS line[3] : K3 : out *
+NOTE PINS line[4] : K2 : out *
+NOTE PINS line[5] : J3 : out *
+NOTE PINS line[6] : J2 : out *
+NOTE PINS line[7] : F3 : out *
+NOTE PINS row[0] : N7 : out *
+NOTE PINS row[1] : P7 : out *
+NOTE PINS row[2] : P6 : out *
+NOTE PINS row[3] : N5 : out *
+NOTE PINS row[4] : H12 : out *
+NOTE PINS row[5] : G14 : out *
+NOTE PINS row[6] : G13 : out *
+NOTE PINS row[7] : F14 : out *
+NOTE PINS row[8] : F13 : out *
+NOTE PINS row[9] : G12 : out *
+NOTE PINS row[10] : F12 : out *
+NOTE PINS row[11] : E12 : out *
+NOTE PINS row[12] : H3 : out *
+NOTE PINS row[13] : G3 : out *
+NOTE PINS row[14] : E3 : out *
+NOTE PINS row[15] : N8 : out *
+NOTE PINS led[0] : N13 : out *
+NOTE PINS led[1] : M12 : out *
+NOTE PINS rst_group[1] : N2 : out *
+NOTE PINS rst_group[2] : P2 : out *
+NOTE PINS rgb_led2[2] : M3 : out *
+NOTE PINS led[7] : P9 : out *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

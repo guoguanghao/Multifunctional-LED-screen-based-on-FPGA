@@ -1,0 +1,55 @@
+----------------------------------------------------------------------
+Report for cell Sensor_IR.TECH
+Register bits:  112 of 4635 (2.416%)
+I/O cells:      41
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        76          100.0
+                            FD1P3AX         1          100.0
+                            FD1P3AY         1          100.0
+                            FD1P3IX        18          100.0
+                            FD1P3JX         1          100.0
+                            FD1S3AX         4          100.0
+                            FD1S3AY         3          100.0
+                            FD1S3IX        84          100.0
+                                GSR         1          100.0
+                                 IB         3          100.0
+                               LUT4       307          100.0
+                                 OB        38          100.0
+                              PFUMX        47          100.0
+SUB MODULES
+          counter(COUNTER_NUM=1200)         1
+       counter(COUNTER_NUM=1200000)         1
+           debounce(CNT_NUM=240000)         1
+                              TOTAL       587
+----------------------------------------------------------------------
+Report for cell counter(COUNTER_NUM=1200).v1
+Instance Path : clk10KHz_uut
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        33           43.4
+                            FD1S3AX         1           25.0
+                            FD1S3IX        32           38.1
+                               LUT4         1            0.3
+                              TOTAL        67
+----------------------------------------------------------------------
+Report for cell counter(COUNTER_NUM=1200000).v1
+Instance Path : clk1Hz_uut
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        33           43.4
+                            FD1S3AX         1           25.0
+                            FD1S3IX        32           38.1
+                               LUT4         1            0.3
+                              TOTAL        67
+----------------------------------------------------------------------
+Report for cell debounce(CNT_NUM=240000).v1
+Instance Path : debounce_uut
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        10           13.2
+                            FD1P3AY         1          100.0
+                            FD1S3AY         2           66.7
+                            FD1S3IX        19           22.6
+                               LUT4        10            3.3
+                              TOTAL        42

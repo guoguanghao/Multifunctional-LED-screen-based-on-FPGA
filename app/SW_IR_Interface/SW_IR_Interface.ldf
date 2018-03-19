@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="SW_IR_Interface" device="LCMXO2-4000HC-4MG132C" default_implementation="impl_SW_IR_Interface">
+    <Options/>
+    <Implementation title="impl_SW_IR_Interface" dir="impl_SW_IR_Interface" description="impl_SW_IR_Interface" synthesis="lse" default_strategy="Strategy1">
+        <Options/>
+        <Source name="SW_IR_Interface.v" type="Verilog" type_short="Verilog">
+            <Options top_module="Sensor_IR"/>
+        </Source>
+        <Source name="debounce.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="delay1us.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="SW_IR_Interface_tb.v" type="Verilog" type_short="Verilog" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="counter.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="impl_SW_IR_Interface/impl_SW_IR_Interface.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+        <Source name="SW_IR_Interface.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="SW_IR_Interface_tb/SW_IR_Interface_tb.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="SW_IR_Interface1.sty"/>
+</BaliProject>

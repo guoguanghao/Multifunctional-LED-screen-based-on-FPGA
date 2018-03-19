@@ -1,0 +1,4 @@
+#Start recording tcl command: 3/23/2017 14:21:35
+#Project Location: D:/FPGA/example/test2; Project name: test2
+prj_project open "D:/FPGA/example/test2/test2.ldf"
+#Stop recording: 3/23/2017 14:30:45

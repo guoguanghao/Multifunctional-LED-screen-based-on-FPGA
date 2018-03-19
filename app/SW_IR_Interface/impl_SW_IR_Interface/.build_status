@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildStatus>
+    <Strategy name="Strategy1">
+        <Milestone name="Export" build_result="0" build_time="0">
+            <Task name="IBIS" build_result="0" update_result="3" update_time="0"/>
+            <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
+            <Task name="TimingSimFileVHD" build_result="0" update_result="3" update_time="0"/>
+            <Task name="Bitgen" build_result="2" update_result="0" update_time="1495007038"/>
+            <Task name="Jedecgen" build_result="2" update_result="0" update_time="1495007042"/>
+        </Milestone>
+        <Milestone name="Map" build_result="2" build_time="1495007027">
+            <Task name="Map" build_result="2" update_result="0" update_time="1495007027"/>
+            <Task name="MapTrace" build_result="0" update_result="3" update_time="0"/>
+            <Task name="MapVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
+            <Task name="MapVHDLSimFile" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="PAR" build_result="2" build_time="1495007033">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1495007033"/>
+            <Task name="PARTrace" build_result="0" update_result="3" update_time="0"/>
+            <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="Synthesis" build_result="2" build_time="1495007026">
+            <Task name="Lattice_Synthesis" build_result="2" update_result="0" update_time="1495007026"/>
+            <Task name="LSE_Compile" build_result="2" update_result="0" update_time="1495007042"/>
+        </Milestone>
+        <Milestone name="TOOL_Report" build_result="0" build_time="0">
+            <Task name="HDLE" build_result="0" update_result="2" update_time="1490374791"/>
+            <Task name="BKM" build_result="0" update_result="2" update_time="0"/>
+            <Task name="SSO" build_result="0" update_result="2" update_time="0"/>
+            <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
+            <Task name="DEC" build_result="0" update_result="2" update_time="0"/>
+        </Milestone>
+        <Report name=".vdbs/SW_IR_Interface_impl_SW_IR_Interface_map.vdb" last_build_time="1495007027" last_build_size="111707"/>
+        <Report name="SW_IR_Interface_impl_SW_IR_Interface.bgn" last_build_time="1495007042" last_build_size="4356"/>
+        <Report name="SW_IR_Interface_impl_SW_IR_Interface.bit" last_build_time="1495007037" last_build_size="20313"/>
+        <Report name="SW_IR_Interface_impl_SW_IR_Interface.jed" last_build_time="1495007042" last_build_size="850291"/>
+        <Report name="SW_IR_Interface_impl_SW_IR_Interface.lsedata" last_build_time="1495007023" last_build_size="309540"/>
+        <Report name="SW_IR_Interface_impl_SW_IR_Interface.ncd" last_build_time="1495007033" last_build_size="418199"/>
+        <Report name="SW_IR_Interface_impl_SW_IR_Interface.ngd" last_build_time="1495007026" last_build_size="329729"/>
+        <Report name="SW_IR_Interface_impl_SW_IR_Interface_map.ncd" last_build_time="1495007027" last_build_size="298423"/>
+    </Strategy>
+</BuildStatus>

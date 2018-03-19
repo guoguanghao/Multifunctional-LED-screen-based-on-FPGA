@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="MapVerilogSimFile">
+        <Message>
+            <ID>35400250</ID>
+            <Severity>Info</Severity>
+            <Dynamic>0</Dynamic>
+        </Message>
+    </Task>
+    <Task name="LSE_Compile">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35001781</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35901171</ID>
+            <Severity>Error</Severity>
+            <Dynamic>d:/fpga/example/test2/main.v(6): </Dynamic>
+            <Dynamic>clk1h</Dynamic>
+            <Navigation>d:/fpga/example/test2/main.v</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+    </Task>
+    <Task name="MapVHDLSimFile">
+        <Message>
+            <ID>35400250</ID>
+            <Severity>Info</Severity>
+            <Dynamic>0</Dynamic>
+        </Message>
+    </Task>
+    <Task name="IBIS">
+        <Message>
+            <ID>1191031</ID>
+            <Severity>Info</Severity>
+        </Message>
+    </Task>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35001781</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35001200</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>main</Dynamic>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/graduate project/code/test2/temperature_main.v(1): </Dynamic>
+            <Dynamic>main</Dynamic>
+            <Navigation>d:/graduate project/code/test2/temperature_main.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/graduate project/code/test2/ds18b20.v(1): </Dynamic>
+            <Dynamic>DS18B20Z</Dynamic>
+            <Navigation>d:/graduate project/code/test2/ds18b20.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/graduate project/code/test2/conversion.v(1): </Dynamic>
+            <Dynamic>conversion</Dynamic>
+            <Navigation>d:/graduate project/code/test2/conversion.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/conversion.v(22): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Navigation>d:/graduate project/code/test2/conversion.v</Navigation>
+            <Navigation>22</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/conversion.v(25): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Navigation>d:/graduate project/code/test2/conversion.v</Navigation>
+            <Navigation>25</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(1): </Dynamic>
+            <Dynamic>led_scan</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/graduate project/code/test2/clk10khz.v(1): </Dynamic>
+            <Dynamic>counter(COUNTER_NUM=1200)</Dynamic>
+            <Navigation>d:/graduate project/code/test2/clk10khz.v</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(54): </Dynamic>
+            <Dynamic>mem</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>54</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(55): </Dynamic>
+            <Dynamic>mem</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>55</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(56): </Dynamic>
+            <Dynamic>mem</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>56</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(57): </Dynamic>
+            <Dynamic>mem</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>57</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(61): </Dynamic>
+            <Dynamic>mem</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>61</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(62): </Dynamic>
+            <Dynamic>mem</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>62</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(63): </Dynamic>
+            <Dynamic>mem</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>63</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(64): </Dynamic>
+            <Dynamic>mem</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>64</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(68): </Dynamic>
+            <Dynamic>mem</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>68</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(69): </Dynamic>
+            <Dynamic>mem</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>69</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(70): </Dynamic>
+            <Dynamic>mem</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>70</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(71): </Dynamic>
+            <Dynamic>mem</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>71</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(72): </Dynamic>
+            <Dynamic>mem</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>72</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(73): </Dynamic>
+            <Dynamic>mem</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>73</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(74): </Dynamic>
+            <Dynamic>mem</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>74</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(75): </Dynamic>
+            <Dynamic>mem</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>75</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(76): </Dynamic>
+            <Dynamic>mem</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>76</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(77): </Dynamic>
+            <Dynamic>mem</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>77</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(78): </Dynamic>
+            <Dynamic>mem</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>78</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(79): </Dynamic>
+            <Dynamic>mem</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>79</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(85): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>85</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(86): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>86</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(87): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>87</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(88): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>88</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(89): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>89</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(90): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>90</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(91): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>91</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(92): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>92</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(93): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>93</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(94): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>94</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(95): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>95</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(96): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>96</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(97): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>97</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(98): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>98</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(99): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>99</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(100): </Dynamic>
+            <Dynamic>cache</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>100</Navigation>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(11): </Dynamic>
+            <Dynamic>mem</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>11</Navigation>
+        </Message>
+        <Message>
+            <ID>35901330</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/temperature_main.v(38): </Dynamic>
+            <Dynamic>16</Dynamic>
+            <Dynamic>5</Dynamic>
+            <Dynamic>data_out</Dynamic>
+            <Navigation>d:/graduate project/code/test2/temperature_main.v</Navigation>
+            <Navigation>38</Navigation>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/temperature_main.v(46): </Dynamic>
+            <Dynamic>seg</Dynamic>
+            <Navigation>d:/graduate project/code/test2/temperature_main.v</Navigation>
+            <Navigation>46</Navigation>
+        </Message>
+        <Message>
+            <ID>35931038</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/temperature_main.v(46): </Dynamic>
+            <Dynamic>seg_original_ramnet</Dynamic>
+            <Navigation>d:/graduate project/code/test2/temperature_main.v</Navigation>
+            <Navigation>46</Navigation>
+        </Message>
+        <Message>
+            <ID>35931038</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/led_scan.v(11): </Dynamic>
+            <Dynamic>mem_original_ramnet</Dynamic>
+            <Navigation>d:/graduate project/code/test2/led_scan.v</Navigation>
+            <Navigation>11</Navigation>
+        </Message>
+        <Message>
+            <ID>35935013</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/ds18b20.v(243): </Dynamic>
+            <Dynamic>\u1/data_wr_i0_i0</Dynamic>
+            <Navigation>d:/graduate project/code/test2/ds18b20.v</Navigation>
+            <Navigation>243</Navigation>
+        </Message>
+        <Message>
+            <ID>35935014</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/graduate project/code/test2/ds18b20.v(243): </Dynamic>
+            <Dynamic>\u1/data_wr_i0_i2</Dynamic>
+            <Navigation>d:/graduate project/code/test2/ds18b20.v</Navigation>
+            <Navigation>243</Navigation>
+        </Message>
+        <Message>
+            <ID>35001611</ID>
+            <Severity>Warning</Severity>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>61061008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>clk_in_c</Dynamic>
+            <Dynamic>Primary</Dynamic>
+            <Dynamic>clk_in</Dynamic>
+            <Dynamic>C1</Dynamic>
+            <Dynamic>Primary</Dynamic>
+        </Message>
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=u1/clk_1mhz loads=13 clock_loads=2</Dynamic>
+        </Message>
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=u1/clk_1mhz loads=13 clock_loads=2</Dynamic>
+        </Message>
+    </Task>
+    <Task name="TimingSimFileVHD">
+        <Message>
+            <ID>35400250</ID>
+            <Severity>Info</Severity>
+            <Dynamic>0</Dynamic>
+        </Message>
+    </Task>
+    <Task name="TimingSimFileVlg">
+        <Message>
+            <ID>35400250</ID>
+            <Severity>Info</Severity>
+            <Dynamic>0</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019990</ID>
+            <Severity>Error</Severity>
+            <Dynamic>CG285 :&quot;D:\FPGA\example\test2\led_scan.v&quot;:63:1:63:6|Expecting statement</Dynamic>
+            <Navigation>CG285</Navigation>
+            <Navigation>D:\FPGA\example\test2\led_scan.v</Navigation>
+            <Navigation>63</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>63</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Expecting statement</Navigation>
+        </Message>
+        <Message>
+            <ID>2019990</ID>
+            <Severity>Error</Severity>
+            <Dynamic>CS187 :&quot;D:\FPGA\example\test2\led_scan.v&quot;:87:1:87:9|Expecting endmodule</Dynamic>
+            <Navigation>CS187</Navigation>
+            <Navigation>D:\FPGA\example\test2\led_scan.v</Navigation>
+            <Navigation>87</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>87</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Expecting endmodule</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

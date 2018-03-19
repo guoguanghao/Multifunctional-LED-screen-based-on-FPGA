@@ -1,0 +1,5 @@
+
+
+-g RamCfg:Reset
+
+-path "D:/FPGA/General_Interface/Interface_BH1750"  

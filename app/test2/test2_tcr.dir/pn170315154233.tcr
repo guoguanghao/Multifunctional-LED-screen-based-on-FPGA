@@ -1,0 +1,13 @@
+#Start recording tcl command: 3/15/2017 11:31:42
+#Project Location: D:/FPGA/example/test2; Project name: test2
+prj_project open "D:/FPGA/example/test2/test2.ldf"
+prj_src add "D:/FPGA/example/test2/LEDtest.v"
+prj_src remove "D:/FPGA/example/test2/conversion.v"
+prj_src remove "D:/FPGA/example/test2/display.v"
+prj_src remove "D:/FPGA/example/test2/divide.v"
+prj_src remove "D:/FPGA/example/test2/main.v"
+prj_src remove "D:/FPGA/example/test2/clock_tb.v"
+prj_run Synthesis -impl impl2 -task Lattice_Synthesis
+prj_run Synthesis -impl impl2 -task Lattice_Synthesis
+prj_run Synthesis -impl impl2 -task Lattice_Synthesis
+#Stop recording: 3/15/2017 15:42:33

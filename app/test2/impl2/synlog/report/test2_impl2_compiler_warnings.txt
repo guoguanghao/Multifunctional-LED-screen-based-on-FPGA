@@ -1,0 +1,28 @@
+@W: CG133 :"D:\FPGA\example\test2\number.v":4:17:4:20|Object memo_4_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\FPGA\example\test2\number.v":4:17:4:20|Object memo_5_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\FPGA\example\test2\number.v":4:17:4:20|Object memo_6_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\FPGA\example\test2\number.v":4:17:4:20|Object memo_7_ is declared but not assigned. Either assign a value or remove the declaration.
+@W:"D:\FPGA\example\test2\number.v":4:17:4:20|Some of the address location in the memory "memo" are not assigned.
+@W: CL118 :"D:\FPGA\example\test2\number.v":8:3:8:6|Latch generated from always block for signal memo_3_[9:0]; possible missing assignment in an if or case statement.
+@W: CL208 :"D:\FPGA\example\test2\number.v":8:3:8:6|All reachable assignments to bit 8 of memo_3_[9:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\FPGA\example\test2\number.v":8:3:8:6|All reachable assignments to bit 9 of memo_3_[9:0] assign 0, register removed by optimization.
+@W: CL118 :"D:\FPGA\example\test2\number.v":8:3:8:6|Latch generated from always block for signal memo_2_[9:0]; possible missing assignment in an if or case statement.
+@W: CL208 :"D:\FPGA\example\test2\number.v":8:3:8:6|All reachable assignments to bit 8 of memo_2_[9:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\FPGA\example\test2\number.v":8:3:8:6|All reachable assignments to bit 9 of memo_2_[9:0] assign 0, register removed by optimization.
+@W: CL118 :"D:\FPGA\example\test2\number.v":8:3:8:6|Latch generated from always block for signal memo_1_[9:0]; possible missing assignment in an if or case statement.
+@W: CL208 :"D:\FPGA\example\test2\number.v":8:3:8:6|All reachable assignments to bit 5 of memo_1_[9:0] assign 1, register removed by optimization.
+@W: CL208 :"D:\FPGA\example\test2\number.v":8:3:8:6|All reachable assignments to bit 6 of memo_1_[9:0] assign 1, register removed by optimization.
+@W: CL208 :"D:\FPGA\example\test2\number.v":8:3:8:6|All reachable assignments to bit 8 of memo_1_[9:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\FPGA\example\test2\number.v":8:3:8:6|All reachable assignments to bit 9 of memo_1_[9:0] assign 0, register removed by optimization.
+@W: CL118 :"D:\FPGA\example\test2\number.v":8:3:8:6|Latch generated from always block for signal memo_0_[9:0]; possible missing assignment in an if or case statement.
+@W: CL177 :"D:\FPGA\example\test2\number.v":8:3:8:6|Sharing sequential element memo_0_. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL208 :"D:\FPGA\example\test2\number.v":8:3:8:6|All reachable assignments to bit 8 of memo_0_[9:0] assign 0, register removed by optimization.
+@W: CL208 :"D:\FPGA\example\test2\number.v":8:3:8:6|All reachable assignments to bit 9 of memo_0_[9:0] assign 0, register removed by optimization.
+@W: CL260 :"D:\FPGA\example\test2\number.v":8:3:8:6|Pruning register bit 6 of memo_3_[6:5]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\FPGA\example\test2\number.v":8:3:8:6|Pruning register bit 6 of memo_0_[6:5]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\FPGA\example\test2\number.v":8:3:8:6|Pruning register bits 3 to 2 of memo_3_[3:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\FPGA\example\test2\number.v":8:3:8:6|Pruning register bits 3 to 2 of memo_1_[3:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\FPGA\example\test2\number.v":8:3:8:6|Pruning register bits 3 to 2 of memo_0_[3:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\FPGA\example\test2\number.v":8:3:8:6|Pruning register bit 6 of memo_2_[6:5]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\FPGA\example\test2\number.v":8:3:8:6|Pruning register bits 3 to 2 of memo_2_[3:1]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+

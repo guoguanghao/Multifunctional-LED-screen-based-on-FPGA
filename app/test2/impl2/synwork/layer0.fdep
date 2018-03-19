@@ -1,0 +1,22 @@
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\FPGA\\example\\test2\\impl2\\synwork\\test2_impl2_comp.srs|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-I|D:\\FPGA\\example\\test2|-I|D:\\FPGA\\example\\test2\\impl2\\|-I|D:\\lscc\\diamond\\3.9_x64\\synpbase\\lib|-v2001|-devicelib|D:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\lucent\\machxo2.v|-devicelib|D:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\lucent\\pmi_def.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work"
+#CUR:"D:\\lscc\\diamond\\3.9_x64\\synpbase\\bin64\\c_ver.exe":1480963140
+#CUR:"D:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\lucent\\machxo2.v":1480960424
+#CUR:"D:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\lucent\\pmi_def.v":1480960424
+#CUR:"D:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vlog\\hypermods.v":1480962754
+#CUR:"D:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vlog\\umr_capim.v":1480962754
+#CUR:"D:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vlog\\scemi_objects.v":1480962754
+#CUR:"D:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vlog\\scemi_pipes.svh":1480962754
+#CUR:"D:\\FPGA\\example\\test2\\led_scan.v":1490064271
+#CUR:"D:\\FPGA\\example\\test2\\clk10khz.v":1490019684
+#numinternalfiles:6
+#defaultlanguage:verilog
+0			"D:\FPGA\example\test2\led_scan.v" verilog
+1			"D:\FPGA\example\test2\clk10khz.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+#Dependency Lists(Users Of)
+0 -1
+1 -1
+#Design Unit to File Association
+module work counter 1

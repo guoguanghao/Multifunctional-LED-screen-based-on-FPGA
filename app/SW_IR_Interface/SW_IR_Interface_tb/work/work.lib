@@ -1,0 +1,57 @@
+timestamp=1490319144374
+
+[~A]
+F:/MCU_FPGA/STEP/MyExample/Expand_Board/Interface/SW_IR_Interface/SW_IR_Interface.v=0*4183*5026
+F:/MCU_FPGA/STEP/MyExample/Expand_Board/Interface/SW_IR_Interface/SW_IR_Interface_tb.v=0*6002*6608
+F:/MCU_FPGA/STEP/MyExample/Expand_Board/Interface/SW_IR_Interface/SW_IR_Interface_tb/../SW_IR_Interface.v=0*7704*8569
+F:/MCU_FPGA/STEP/MyExample/Expand_Board/Interface/SW_IR_Interface/debounce.v=0*2245*3113
+F:/MCU_FPGA/STEP/MyExample/Expand_Board/Interface/SW_IR_Interface/delay1us.v=0*434*1222
+LastVerilogToplevel=SW_IR_Interface_tb
+ModifyID=5
+Version=74
+
+[$root]
+A/$root=22|||1*9399
+BinI32/$root=3*9160
+SLP=3*9264
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c73a565f2ade592f8ac1c68f484c92160f1000a4b5ef52b066c42b8f0e5b47e3
+
+[SW_IR_Interface_tb]
+A/SW_IR_Interface_tb=22|./../../SW_IR_Interface_tb.v|2|1*8089
+BinI32/SW_IR_Interface_tb=3*8291
+R=./../../SW_IR_Interface_tb.v|2
+SLP=3*8879
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|089a96981fdade6123cf7abb7d768a5407788965f7bb3dae0907ab32ba2c380928cba902fd584c127b91ea1845eaa4b3
+
+[Sensor_IR]
+A/Sensor_IR=22|./../../SW_IR_Interface.v|1|1*9773
+BinI32/Sensor_IR=3*9332
+R=./../../SW_IR_Interface.v|1
+SLP=3*10614
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|f1341adda448c0f34a58d22d3712510c74b932a99aa81657982051486f806f26188fc677eb0425de32b094c40d0afb74
+
+[debounce]
+A/debounce=22|./../../debounce.v|1|1*2708
+BinI32/debounce=3*2703
+R=./../../debounce.v|1
+SLP=3*5404
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|2383c81ec9e742b193aba2367b4ffbb2b4470a4173a9ccfce999ce8608f2fc7b61e7f1e6e81843f4457fc2f876a21da3
+
+[delay1us]
+A/delay1us=22|./../../delay1us.v|1|1*374
+BinI32/delay1us=3*172
+R=./../../delay1us.v|1
+SLP=3*1900
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|a847f0ee67b4e9bcaf01ce999b13104087fabc1923ebef1c0db8b11d0dd8672113fc66171352ff2b2805733577aef06d
+
+[~MFT]
+0=4|0work.mgf|8569|0
+1=4|1work.mgf|9773|3589
+3=8|3work.mgf|10614|2489
+
+[~U]
+$root=12|0*7207|
+SW_IR_Interface_tb=12|0*5820||0x10
+Sensor_IR=12|0*7405|
+debounce=12|0*1977||0x10
+delay1us=12|0*166||0x10

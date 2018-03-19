@@ -1,0 +1,1 @@
+D:/lscc/diamond/3.8_x64/bin/nt64/moduleparser.exe -PROJ SW_IR_Interface_tb -pf D:/lscc/diamond/3.8_x64/cae_library/synthesis/vhdl/machxo2.vhd -lib machxo2 -pkg D:/lscc/diamond/3.8_x64/cae_library/vhdl_packages/vdbs -lst F:/MCU_FPGA/STEP/MyExample/Expand_Board/Interface/SW_IR_Interface/SW_IR_Interface_tb/source_files.lst

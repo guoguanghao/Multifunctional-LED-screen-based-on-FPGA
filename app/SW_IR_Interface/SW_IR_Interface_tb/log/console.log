@@ -1,0 +1,248 @@
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_machxo2
+designverdefinemacro -clear
+addfile F:/MCU_FPGA/STEP/MyExample/Expand_Board/Interface/SW_IR_Interface/delay1us.v
+# Adding file F:\MCU_FPGA\STEP\MyExample\Expand_Board\Interface\SW_IR_Interface\delay1us.v ... Done
+addfile F:/MCU_FPGA/STEP/MyExample/Expand_Board/Interface/SW_IR_Interface/debounce.v
+# Adding file F:\MCU_FPGA\STEP\MyExample\Expand_Board\Interface\SW_IR_Interface\debounce.v ... Done
+addfile F:/MCU_FPGA/STEP/MyExample/Expand_Board/Interface/SW_IR_Interface/SW_IR_Interface.v
+# Adding file F:\MCU_FPGA\STEP\MyExample\Expand_Board\Interface\SW_IR_Interface\SW_IR_Interface.v ... Done
+addfile F:/MCU_FPGA/STEP/MyExample/Expand_Board/Interface/SW_IR_Interface/SW_IR_Interface_tb.v
+# Adding file F:\MCU_FPGA\STEP\MyExample\Expand_Board\Interface\SW_IR_Interface\SW_IR_Interface_tb.v ... Done
+vlib F:/MCU_FPGA/STEP/MyExample/Expand_Board/Interface/SW_IR_Interface/SW_IR_Interface_tb/work
+# Warning: Library work already exists
+adel -all
+# Library contents cleared.
+vlog -dbg -work work F:/MCU_FPGA/STEP/MyExample/Expand_Board/Interface/SW_IR_Interface/delay1us.v
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Unit top modules: delay1us.
+# $root top modules: delay1us.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work F:/MCU_FPGA/STEP/MyExample/Expand_Board/Interface/SW_IR_Interface/debounce.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: debounce.
+# $root top modules: delay1us debounce.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work F:/MCU_FPGA/STEP/MyExample/Expand_Board/Interface/SW_IR_Interface/SW_IR_Interface.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module debounce found in current working library.
+# Info: VCP2113 Module delay1us found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (F:/MCU_FPGA/STEP/MyExample/Expand_Board/Interface/SW_IR_Interface/SW_IR_Interface.v, ln 19).
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: Sensor_IR.
+# $root top modules: Sensor_IR.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work F:/MCU_FPGA/STEP/MyExample/Expand_Board/Interface/SW_IR_Interface/SW_IR_Interface_tb.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module Sensor_IR found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: SW_IR_Interface_tb.
+# $root top modules: SW_IR_Interface_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+module SW_IR_Interface_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'Sensor_IR' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'debounce' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'delay1us' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+vsim +access +r SW_IR_Interface_tb -PL pmi_work -L ovi_machxo2
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'Sensor_IR' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'debounce' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'delay1us' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 100ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.5 [s]
+# SLP: Finished : 0.6 [s]
+# SLP: 0 primitives and 13 (100.00%) other processes in SLP
+# SLP: 25 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.7 [s].
+# KERNEL: SLP loading done - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5543 kB (elbread=1280 elab2=4118 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location F:\MCU_FPGA\STEP\MyExample\Expand_Board\Interface\SW_IR_Interface\SW_IR_Interface_tb\src\wave.asdb
+#  9:29, 2017年3月24日
+#  Simulation has been initialized
+add wave *
+# 4 signal(s) traced.
+run 1000ns
+# Waveform file 'untitled.awc' connected to 'F:/MCU_FPGA/STEP/MyExample/Expand_Board/Interface/SW_IR_Interface/SW_IR_Interface_tb/src/wave.asdb'.
+# KERNEL: stopped at time: 1 us
+# KERNEL: stopped at time: 2 us
+# KERNEL: stopped at time: 3 us
+# KERNEL: stopped at time: 4 us
+# 1 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'Sensor_IR' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'debounce' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'delay1us' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 100ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, using existing simulator library: 0.0 [s]
+# SLP: Finished : 0.1 [s]
+# SLP: 0 primitives and 13 (100.00%) other processes in SLP
+# SLP: 25 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5543 kB (elbread=1280 elab2=4118 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location F:\MCU_FPGA\STEP\MyExample\Expand_Board\Interface\SW_IR_Interface\SW_IR_Interface_tb\src\wave.asdb
+#  9:30, 2017年3月24日
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/MCU_FPGA/STEP/MyExample/Expand_Board/Interface/SW_IR_Interface/SW_IR_Interface_tb/src/wave.asdb'.
+run 1us
+# KERNEL: stopped at time: 1 us
+run 1us
+# KERNEL: stopped at time: 2 us
+# 1 signal(s) traced.
+run 1us
+# KERNEL: stopped at time: 3 us
+run 1us
+# KERNEL: stopped at time: 4 us
+run 1us
+# KERNEL: stopped at time: 5 us
+run 1us
+# KERNEL: stopped at time: 6 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'Sensor_IR' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'debounce' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'delay1us' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 100ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, using existing simulator library: 0.0 [s]
+# SLP: Finished : 0.1 [s]
+# SLP: 0 primitives and 13 (100.00%) other processes in SLP
+# SLP: 25 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5543 kB (elbread=1280 elab2=4118 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location F:\MCU_FPGA\STEP\MyExample\Expand_Board\Interface\SW_IR_Interface\SW_IR_Interface_tb\src\wave.asdb
+#  9:32, 2017年3月24日
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/MCU_FPGA/STEP/MyExample/Expand_Board/Interface/SW_IR_Interface/SW_IR_Interface_tb/src/wave.asdb'.
+run 1us
+alog -O2 -sve -msg 5 -sv2k12 -work work $dsn/../SW_IR_Interface.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module debounce found in current working library.
+# Info: VCP2113 Module delay1us found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Parameters in case labels, will not check for overlapping labels (F:/MCU_FPGA/STEP/MyExample/Expand_Board/Interface/SW_IR_Interface/SW_IR_Interface_tb/../SW_IR_Interface.v, ln 19).
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: SW_IR_Interface_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'Sensor_IR' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'debounce' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'delay1us' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 100ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.6 [s]
+# SLP: Finished : 0.7 [s]
+# SLP: 0 primitives and 13 (100.00%) other processes in SLP
+# SLP: 25 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.8 [s].
+# KERNEL: SLP loading done - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5542 kB (elbread=1280 elab2=4117 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location F:\MCU_FPGA\STEP\MyExample\Expand_Board\Interface\SW_IR_Interface\SW_IR_Interface_tb\src\wave.asdb
+#  9:32, 2017年3月24日
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/MCU_FPGA/STEP/MyExample/Expand_Board/Interface/SW_IR_Interface/SW_IR_Interface_tb/src/wave.asdb'.
+run 1us
+# KERNEL: stopped at time: 1 us
+run 1us
+# KERNEL: stopped at time: 2 us
+run 1us
+# KERNEL: stopped at time: 3 us
+run 1us
+# KERNEL: stopped at time: 4 us
+run 1us
+# KERNEL: stopped at time: 5 us
+run 1us
+# KERNEL: stopped at time: 6 us
+run 1us
+# KERNEL: stopped at time: 7 us
+run 1us
+# KERNEL: stopped at time: 8 us

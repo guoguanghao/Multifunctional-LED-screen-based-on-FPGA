@@ -1,0 +1,9 @@
+Selecting top level module led_scan
+@N: CG364 :"D:\FPGA\example\test2\clk10khz.v":1:7:1:13|Synthesizing module counter in library work.
+
+	COUNTER_NUM=32'b00000000000000000000010010110000
+   Generated name = counter_1200s
+
+@N: CG364 :"D:\FPGA\example\test2\led_scan.v":1:7:1:14|Synthesizing module led_scan in library work.
+
+@E: CG313 :"D:\FPGA\example\test2\led_scan.v":5:17:5:20|Port meme[0]: direction is incompatible with declaration (can only be type wire)

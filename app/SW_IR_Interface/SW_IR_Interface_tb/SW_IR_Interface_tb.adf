@@ -1,0 +1,51 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+[Configurations]
+compile=work
+[Library]
+SW_IR_Interface_tb=.\SW_IR_Interface_tb\SW_IR_Interface_tb.lib
+[Settings]
+AccessRead=1
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+PriorityLibNames=pmi_work
+LibNames=ovi_machxo2
+[LocalVhdlSets]
+CompileWithDebug=0
+[$LibMap$]
+sw_ir_interface_tb=.
+work=.
+[LocalVerilogDirs]
+Count=0
+[DefineMacro]
+Global=
+[Files]
+/..\..\delay1us.v=-1
+/..\..\debounce.v=-1
+/..\..\SW_IR_Interface.v=-1
+/..\..\SW_IR_Interface_tb.v=-1
+[Files.Data]
+.\..\delay1us.v=Verilog Source Code
+.\..\debounce.v=Verilog Source Code
+.\..\SW_IR_Interface.v=Verilog Source Code
+.\..\SW_IR_Interface_tb.v=Verilog Source Code
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

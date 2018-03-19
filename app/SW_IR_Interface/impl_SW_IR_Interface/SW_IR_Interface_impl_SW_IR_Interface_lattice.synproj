@@ -1,0 +1,43 @@
+-a "MachXO2"
+-d LCMXO2-4000HC
+-t CSBGA132
+-s 4
+
+-optimization_goal Balanced
+-bram_utilization 100
+-ramstyle Auto
+-romstyle auto
+-dsp_utilization 100
+-use_dsp 1
+-use_carry_chain 1
+-carry_chain_length 0
+-force_gsr Auto
+-resource_sharing 1
+-propagate_constants 1
+-remove_duplicate_regs 1
+-mux_style Auto
+-max_fanout 1000
+-fsm_encoding_style Auto
+-twr_paths 3
+-fix_gated_clocks 1
+-loop_limit 1950
+
+
+
+-use_io_insertion 1
+-resolve_mixed_drivers 0
+-use_io_reg auto
+
+
+-lpf 1
+-p "D:/graduate project/code/SW_IR_Interface"
+-ver "D:/graduate project/code/SW_IR_Interface/SW_IR_Interface.v"
+"D:/graduate project/code/SW_IR_Interface/debounce.v"
+"D:/graduate project/code/SW_IR_Interface/delay1us.v"
+"D:/graduate project/code/SW_IR_Interface/counter.v"
+
+
+-p "D:/lscc/diamond/3.9_x64/ispfpga/xo2c00/data" "D:/graduate project/code/SW_IR_Interface/impl_SW_IR_Interface" "D:/graduate project/code/SW_IR_Interface"
+
+-ngd "SW_IR_Interface_impl_SW_IR_Interface.ngd"
+

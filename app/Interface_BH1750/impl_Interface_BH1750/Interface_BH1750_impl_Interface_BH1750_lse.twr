@@ -1,0 +1,221 @@
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Fri Mar 24 15:42:19 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Design:     Interface_BH1750
+Constraint file:  
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 1000.000000 -name clk3 [get_nets \u5/line_7__N_474]
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Constraint: create_clock -period 1000.000000 -name clk2 [get_nets clk16Hz]
+            1 item scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 997.881ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3IX    CK             \u5/get_num_flag_112  (from clk16Hz +)
+   Destination:    FD1P3IX    CD             \u5/get_num_flag_112  (to clk16Hz +)
+
+   Delay:                   1.959ns  (22.7% logic, 77.3% route), 1 logic levels.
+
+ Constraint Details:
+
+      1.959ns data_path \u5/get_num_flag_112 to \u5/get_num_flag_112 meets
+    1000.000ns delay constraint less
+      0.160ns L_S requirement (totaling 999.840ns) by 997.881ns
+
+ Path Details: \u5/get_num_flag_112 to \u5/get_num_flag_112
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              \u5/get_num_flag_112 (from clk16Hz)
+Route         6   e 1.515                                  get_num_flag
+                  --------
+                    1.959  (22.7% logic, 77.3% route), 1 logic levels.
+
+Report: 2.119 ns is the maximum delay for this constraint.
+
+
+
+================================================================================
+Constraint: create_clock -period 1000.000000 -name clk1 [get_nets clk_100khz]
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Constraint: create_clock -period 1000.000000 -name clk0 [get_nets clk_c]
+            1644 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 985.250ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3AX    CK             \u1/cnt_4435__i3  (from clk_c +)
+   Destination:    FD1P3AX    D              \u1/data_i0_i15  (to clk_c +)
+
+   Delay:                  14.590ns  (26.7% logic, 73.3% route), 8 logic levels.
+
+ Constraint Details:
+
+     14.590ns data_path \u1/cnt_4435__i3 to \u1/data_i0_i15 meets
+    1000.000ns delay constraint less
+      0.160ns L_S requirement (totaling 999.840ns) by 985.250ns
+
+ Path Details: \u1/cnt_4435__i3 to \u1/data_i0_i15
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              \u1/cnt_4435__i3 (from clk_c)
+Route        70   e 2.330                                  \u1/cnt[3]
+LUT4        ---     0.493              C to Z              \u1/i1_2_lut_rep_305_3_lut_3_lut
+Route        13   e 1.803                                  \u1/n16763
+LUT4        ---     0.493              B to Z              \u1/i17_3_lut_4_lut_4_lut_adj_141
+Route         1   e 0.941                                  \u1/n10_adj_866
+LUT4        ---     0.493              D to Z              \u1/i1_4_lut_adj_140
+Route         4   e 1.340                                  \u1/n11813
+LUT4        ---     0.493              B to Z              \u1/i9439_2_lut_rep_269_4_lut
+Route         3   e 1.258                                  \u1/n16727
+LUT4        ---     0.493              C to Z              \u1/i9557_4_lut
+Route         2   e 1.141                                  \u1/n11977
+LUT4        ---     0.493              C to Z              \u1/i9555_2_lut_3_lut_4_lut
+Route         1   e 0.941                                  \u1/n12013
+LUT4        ---     0.493              D to Z              \u1/i1_4_lut_adj_136
+Route         1   e 0.941                                  \u1/n8760
+                  --------
+                   14.590  (26.7% logic, 73.3% route), 8 logic levels.
+
+
+Passed:  The following path meets requirements by 985.250ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3AX    CK             \u1/cnt_4435__i3  (from clk_c +)
+   Destination:    FD1P3AX    D              \u1/data_i0_i14  (to clk_c +)
+
+   Delay:                  14.590ns  (26.7% logic, 73.3% route), 8 logic levels.
+
+ Constraint Details:
+
+     14.590ns data_path \u1/cnt_4435__i3 to \u1/data_i0_i14 meets
+    1000.000ns delay constraint less
+      0.160ns L_S requirement (totaling 999.840ns) by 985.250ns
+
+ Path Details: \u1/cnt_4435__i3 to \u1/data_i0_i14
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              \u1/cnt_4435__i3 (from clk_c)
+Route        70   e 2.330                                  \u1/cnt[3]
+LUT4        ---     0.493              C to Z              \u1/i1_2_lut_rep_305_3_lut_3_lut
+Route        13   e 1.803                                  \u1/n16763
+LUT4        ---     0.493              B to Z              \u1/i17_3_lut_4_lut_4_lut_adj_141
+Route         1   e 0.941                                  \u1/n10_adj_866
+LUT4        ---     0.493              D to Z              \u1/i1_4_lut_adj_140
+Route         4   e 1.340                                  \u1/n11813
+LUT4        ---     0.493              B to Z              \u1/i9439_2_lut_rep_269_4_lut
+Route         3   e 1.258                                  \u1/n16727
+LUT4        ---     0.493              C to Z              \u1/i9557_4_lut
+Route         2   e 1.141                                  \u1/n11977
+LUT4        ---     0.493              C to Z              \u1/i9525_2_lut_3_lut_4_lut
+Route         1   e 0.941                                  \u1/n11979
+LUT4        ---     0.493              D to Z              \u1/i1_4_lut_adj_146
+Route         1   e 0.941                                  \u1/n8757
+                  --------
+                   14.590  (26.7% logic, 73.3% route), 8 logic levels.
+
+
+Passed:  The following path meets requirements by 985.258ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3AX    CK             \u1/cnt_4435__i4  (from clk_c +)
+   Destination:    FD1P3AX    D              \u1/data_i0_i15  (to clk_c +)
+
+   Delay:                  14.582ns  (26.7% logic, 73.3% route), 8 logic levels.
+
+ Constraint Details:
+
+     14.582ns data_path \u1/cnt_4435__i4 to \u1/data_i0_i15 meets
+    1000.000ns delay constraint less
+      0.160ns L_S requirement (totaling 999.840ns) by 985.258ns
+
+ Path Details: \u1/cnt_4435__i4 to \u1/data_i0_i15
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              \u1/cnt_4435__i4 (from clk_c)
+Route        60   e 2.322                                  \u1/cnt[4]
+LUT4        ---     0.493              B to Z              \u1/i1_2_lut_rep_305_3_lut_3_lut
+Route        13   e 1.803                                  \u1/n16763
+LUT4        ---     0.493              B to Z              \u1/i17_3_lut_4_lut_4_lut_adj_141
+Route         1   e 0.941                                  \u1/n10_adj_866
+LUT4        ---     0.493              D to Z              \u1/i1_4_lut_adj_140
+Route         4   e 1.340                                  \u1/n11813
+LUT4        ---     0.493              B to Z              \u1/i9439_2_lut_rep_269_4_lut
+Route         3   e 1.258                                  \u1/n16727
+LUT4        ---     0.493              C to Z              \u1/i9557_4_lut
+Route         2   e 1.141                                  \u1/n11977
+LUT4        ---     0.493              C to Z              \u1/i9555_2_lut_3_lut_4_lut
+Route         1   e 0.941                                  \u1/n12013
+LUT4        ---     0.493              D to Z              \u1/i1_4_lut_adj_136
+Route         1   e 0.941                                  \u1/n8760
+                  --------
+                   14.582  (26.7% logic, 73.3% route), 8 logic levels.
+
+Report: 14.750 ns is the maximum delay for this constraint.
+
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk3 [get_nets \u5/line_7__N_474]       |            -|            -|     0  
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk2 [get_nets clk16Hz]                 |  1000.000 ns|     2.119 ns|     1  
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk1 [get_nets clk_100khz]              |            -|            -|     0  
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk0 [get_nets clk_c]                   |  1000.000 ns|    14.750 ns|     8  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover  6212 paths, 423 nets, and 1053 connections (38.7% coverage)
+
+
+Peak memory: 113422336 bytes, TRCE: 438272 bytes, DLYMAN: 0 bytes
+CPU_TIME_REPORT: 0 secs 

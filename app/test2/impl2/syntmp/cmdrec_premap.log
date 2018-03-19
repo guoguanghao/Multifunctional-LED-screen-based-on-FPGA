@@ -1,0 +1,13 @@
+D:\lscc\diamond\3.9_x64\synpbase\bin64\m_gen_lattice.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  D:\FPGA\example\test2\impl2   -part LCMXO2_4000HC  -package MG132I  -grade -4    -maxfan 1000 -pipe  -fixgatedclocks 1 -fixgeneratedclocks 1 -RWCheckOnRam 1 -use_rename_in_edif 1 -Write_declared_clocks_only 1 -summaryfile D:\FPGA\example\test2\impl2\synlog\report\test2_impl2_premap.xml  -ta_num_paths  3  -oedif  D:\FPGA\example\test2\impl2\test2_impl2.edi  -conchk_prepass  D:\FPGA\example\test2\impl2\test2_impl2_cck.rpt   -autoconstraint  -freq 1.000   D:\FPGA\example\test2\impl2\synwork\test2_impl2_mult.srs  -flow prepass  -gcc_prepass  -osrd  D:\FPGA\example\test2\impl2\synwork\test2_impl2_prem.srd  -devicelib  D:\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo2.v  -devicelib  D:\lscc\diamond\3.9_x64\synpbase\lib\lucent\pmi_def.v  -ologparam  D:\FPGA\example\test2\impl2\syntmp\test2_impl2.plg  -osyn  D:\FPGA\example\test2\impl2\synwork\test2_impl2_prem.srd  -prjdir  D:\FPGA\example\test2\impl2\  -prjname  proj_1  -log  D:\FPGA\example\test2\impl2\synlog\test2_impl2_premap.srr 
+rc:1 success:1 runtime:0
+file:D:\FPGA\example\test2\impl2\test2_impl2.edi|io:o|time:1490059887|size:218949|exec:0
+file:D:\FPGA\example\test2\impl2\test2_impl2_cck.rpt|io:o|time:1490060130|size:2946|exec:0
+file:D:\FPGA\example\test2\impl2\synwork\test2_impl2_mult.srs|io:i|time:1490060130|size:3792|exec:0
+file:D:\FPGA\example\test2\impl2\synwork\test2_impl2_prem.srd|io:o|time:1490060130|size:4192|exec:0
+file:D:\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo2.v|io:i|time:1480960424|size:54295|exec:0
+file:D:\lscc\diamond\3.9_x64\synpbase\lib\lucent\pmi_def.v|io:i|time:1480960424|size:40584|exec:0
+file:D:\FPGA\example\test2\impl2\syntmp\test2_impl2.plg|io:o|time:1490060130|size:0|exec:0
+file:D:\FPGA\example\test2\impl2\synwork\test2_impl2_prem.srd|io:o|time:1490060130|size:4192|exec:0
+file:D:\FPGA\example\test2\impl2\synlog\test2_impl2_premap.srr|io:o|time:1490060130|size:3934|exec:0
+file:D:\lscc\diamond\3.9_x64\synpbase\bin\m_gen_lattice.exe|io:i|time:1480961290|size:19188224|exec:1
+file:D:\lscc\diamond\3.9_x64\synpbase\bin64\m_gen_lattice.exe|io:i|time:1480962888|size:23047168|exec:1

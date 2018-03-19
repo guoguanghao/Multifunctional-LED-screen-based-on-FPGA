@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="test2" device="LCMXO2-4000HC-4MG132I" default_implementation="impl2">
+    <Options/>
+    <Implementation title="impl2" dir="impl2" description="impl2" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="main"/>
+        <Source name="conversion.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="ds18b20.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="led_scan.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="clk10khz.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="temperature_main.v" type="Verilog" type_short="Verilog">
+            <Options top_module="main"/>
+        </Source>
+        <Source name="impl2/impl2.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+        <Source name="test2.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="test21.sty"/>
+</BaliProject>

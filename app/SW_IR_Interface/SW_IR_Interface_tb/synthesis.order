@@ -1,0 +1,4 @@
+i<>.\..\delay1us.v
+i<>.\..\debounce.v
+i<>.\..\SW_IR_Interface.v
+i<>.\..\SW_IR_Interface_tb.v

@@ -1,0 +1,6 @@
+[Files List]
+D:\lscc\diamond\3.8_x64\active-hdl\vlib\std/src/standard.vhd=S
+F:\MCU_FPGA\STEP\MyExample\Expand_Board\Interface\SW_IR_Interface/delay1us.v=S
+F:\MCU_FPGA\STEP\MyExample\Expand_Board\Interface\SW_IR_Interface/debounce.v=S
+F:\MCU_FPGA\STEP\MyExample\Expand_Board\Interface\SW_IR_Interface/SW_IR_Interface.v=S
+F:\MCU_FPGA\STEP\MyExample\Expand_Board\Interface\SW_IR_Interface/SW_IR_Interface_tb.v=S

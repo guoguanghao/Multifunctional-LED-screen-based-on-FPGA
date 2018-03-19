@@ -1,0 +1,7 @@
+D:\lscc\diamond\3.9_x64\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  D:\FPGA\example\test2\impl2\synwork\test2_impl2_comp.srs  -osyn  D:\FPGA\example\test2\impl2\synwork\test2_impl2_mult.srs  -log  D:\FPGA\example\test2\impl2\synlog\test2_impl2_multi_srs_gen.srr 
+rc:0 success:1 runtime:0
+file:D:\FPGA\example\test2\impl2\synwork\test2_impl2_comp.srs|io:i|time:1490060129|size:3858|exec:0
+file:D:\FPGA\example\test2\impl2\synwork\test2_impl2_mult.srs|io:o|time:1490060130|size:3792|exec:0
+file:D:\FPGA\example\test2\impl2\synlog\test2_impl2_multi_srs_gen.srr|io:o|time:1490060130|size:746|exec:0
+file:D:\lscc\diamond\3.9_x64\synpbase\bin\syn_nfilter.exe|io:i|time:1480962996|size:3128320|exec:1
+file:D:\lscc\diamond\3.9_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1480963264|size:3947520|exec:1

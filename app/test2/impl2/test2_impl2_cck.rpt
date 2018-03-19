@@ -1,0 +1,145 @@
+# Synopsys Constraint Checker, version maplat, Build 1612R, built Dec  5 2016
+# Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Tue Mar 21 09:35:30 2017
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "number_transform"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting     Ending     |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------
+===================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:bcd[0]
+p:bcd[1]
+p:bcd[2]
+p:bcd[3]
+p:memo[0]
+p:memo[1]
+p:memo[2]
+p:memo[3]
+p:memo[4]
+p:memo[5]
+p:memo[6]
+p:memo[7]
+p:memo[8]
+p:memo[9]
+p:memo[10]
+p:memo[11]
+p:memo[12]
+p:memo[13]
+p:memo[14]
+p:memo[15]
+p:memo[16]
+p:memo[17]
+p:memo[18]
+p:memo[19]
+p:memo[20]
+p:memo[21]
+p:memo[22]
+p:memo[23]
+p:memo[24]
+p:memo[25]
+p:memo[26]
+p:memo[27]
+p:memo[28]
+p:memo[29]
+p:memo[30]
+p:memo[31]
+p:memo[32]
+p:memo[33]
+p:memo[34]
+p:memo[35]
+p:memo[36]
+p:memo[37]
+p:memo[38]
+p:memo[39]
+p:memo[40]
+p:memo[41]
+p:memo[42]
+p:memo[43]
+p:memo[44]
+p:memo[45]
+p:memo[46]
+p:memo[47]
+p:memo[48]
+p:memo[49]
+p:memo[50]
+p:memo[51]
+p:memo[52]
+p:memo[53]
+p:memo[54]
+p:memo[55]
+p:memo[56]
+p:memo[57]
+p:memo[58]
+p:memo[59]
+p:memo[60]
+p:memo[61]
+p:memo[62]
+p:memo[63]
+p:memo[64]
+p:memo[65]
+p:memo[66]
+p:memo[67]
+p:memo[68]
+p:memo[69]
+p:memo[70]
+p:memo[71]
+p:memo[72]
+p:memo[73]
+p:memo[74]
+p:memo[75]
+p:memo[76]
+p:memo[77]
+p:memo[78]
+p:memo[79]
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

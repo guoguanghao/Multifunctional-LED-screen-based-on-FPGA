@@ -1,0 +1,190 @@
+#Build: Synplify Pro L-2016.09L, Build 077R, Dec  2 2016
+#install: D:\lscc\diamond\3.9_x64\synpbase
+#OS: Windows 7 6.1
+#Hostname: RUNCH-20160817H
+
+# Mon Mar 20 22:18:29 2017
+
+#Implementation: impl2
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"D:\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo2.v" (library work)
+@I::"D:\lscc\diamond\3.9_x64\synpbase\lib\lucent\pmi_def.v" (library work)
+@I::"D:\lscc\diamond\3.9_x64\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"D:\lscc\diamond\3.9_x64\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"D:\lscc\diamond\3.9_x64\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"D:\lscc\diamond\3.9_x64\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\FPGA\example\test2\conversion.v" (library work)
+@W: CG921 :"D:\FPGA\example\test2\conversion.v":10:13:10:20|hundreds is already declared in this scope.
+@I::"D:\FPGA\example\test2\ds18b20.v" (library work)
+@I::"D:\FPGA\example\test2\led_scan.v" (library work)
+@E: CG353 :"D:\FPGA\example\test2\led_scan.v":25:11:25:15|Expecting digit in radix 16
+@E: CG353 :"D:\FPGA\example\test2\led_scan.v":31:13:31:16|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\led_scan.v":31:13:31:24|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\led_scan.v":32:13:32:16|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\led_scan.v":32:13:32:24|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\led_scan.v":33:13:33:16|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\led_scan.v":33:13:33:24|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\led_scan.v":34:13:34:16|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\led_scan.v":34:13:34:24|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\led_scan.v":35:13:35:16|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\led_scan.v":35:13:35:24|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\led_scan.v":36:13:36:16|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\led_scan.v":36:13:36:24|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\led_scan.v":37:13:37:16|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\led_scan.v":37:13:37:24|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\led_scan.v":38:13:38:16|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\led_scan.v":38:13:38:24|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\led_scan.v":43:4:43:8|Expecting digit in radix 16
+@W: CG289 :"D:\FPGA\example\test2\led_scan.v":43:4:43:12|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\led_scan.v":44:4:44:8|Expecting digit in radix 16
+@W: CG289 :"D:\FPGA\example\test2\led_scan.v":44:4:44:12|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\led_scan.v":45:4:45:8|Expecting digit in radix 16
+@W: CG289 :"D:\FPGA\example\test2\led_scan.v":45:4:45:12|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\led_scan.v":46:4:46:8|Expecting digit in radix 16
+@W: CG289 :"D:\FPGA\example\test2\led_scan.v":46:4:46:12|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\led_scan.v":47:4:47:8|Expecting digit in radix 16
+@W: CG289 :"D:\FPGA\example\test2\led_scan.v":47:4:47:12|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\led_scan.v":48:4:48:8|Expecting digit in radix 16
+@W: CG289 :"D:\FPGA\example\test2\led_scan.v":48:4:48:12|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\led_scan.v":49:4:49:8|Expecting digit in radix 16
+@W: CG289 :"D:\FPGA\example\test2\led_scan.v":49:4:49:12|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\led_scan.v":50:4:50:8|Expecting digit in radix 16
+@W: CG289 :"D:\FPGA\example\test2\led_scan.v":50:4:50:12|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\led_scan.v":51:4:51:8|Expecting digit in radix 16
+@W: CG289 :"D:\FPGA\example\test2\led_scan.v":51:4:51:12|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\led_scan.v":52:4:52:8|Expecting digit in radix 16
+@W: CG289 :"D:\FPGA\example\test2\led_scan.v":52:4:52:12|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\led_scan.v":53:4:53:8|Expecting digit in radix 16
+@W: CG289 :"D:\FPGA\example\test2\led_scan.v":53:4:53:12|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\led_scan.v":54:4:54:8|Expecting digit in radix 16
+@W: CG289 :"D:\FPGA\example\test2\led_scan.v":54:4:54:12|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\led_scan.v":55:4:55:8|Expecting digit in radix 16
+@W: CG289 :"D:\FPGA\example\test2\led_scan.v":55:4:55:12|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\led_scan.v":56:4:56:8|Expecting digit in radix 16
+@W: CG289 :"D:\FPGA\example\test2\led_scan.v":56:4:56:12|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\led_scan.v":57:4:57:8|Expecting digit in radix 16
+@W: CG289 :"D:\FPGA\example\test2\led_scan.v":57:4:57:12|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\led_scan.v":58:4:58:8|Expecting digit in radix 16
+@W: CG289 :"D:\FPGA\example\test2\led_scan.v":58:4:58:12|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\led_scan.v":64:14:64:17|Expecting digit in radix 16
+@W: CG289 :"D:\FPGA\example\test2\led_scan.v":64:14:64:19|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\led_scan.v":65:20:65:23|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\led_scan.v":65:20:65:26|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\led_scan.v":66:20:66:23|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\led_scan.v":66:20:66:26|Specified digits overflow the number's size
+@E: CS187 :"D:\FPGA\example\test2\led_scan.v":67:1:67:9|Expecting endmodule
+@I::"D:\FPGA\example\test2\clk10khz.v" (library work)
+@E: CS187 :"D:\FPGA\example\test2\clk10khz.v":11:1:11:3|Expecting ;
+@I::"D:\FPGA\example\test2\number.v" (library work)
+@E: CG353 :"D:\FPGA\example\test2\number.v":8:3:8:6|Expecting digit in radix 2
+@E: CG353 :"D:\FPGA\example\test2\number.v":9:21:9:24|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":9:21:9:32|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":10:15:10:18|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":10:15:10:26|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":11:15:11:18|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":11:15:11:26|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":12:15:12:18|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":12:15:12:26|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":14:3:14:6|Expecting digit in radix 2
+@E: CG353 :"D:\FPGA\example\test2\number.v":15:21:15:24|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":15:21:15:32|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":16:15:16:18|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":16:15:16:26|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":17:15:17:18|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":17:15:17:26|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":18:15:18:18|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":18:15:18:26|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":20:3:20:6|Expecting digit in radix 2
+@E: CG353 :"D:\FPGA\example\test2\number.v":21:21:21:24|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":21:21:21:32|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":22:15:22:18|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":22:15:22:26|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":23:15:23:18|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":23:15:23:26|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":24:15:24:18|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":24:15:24:26|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":26:3:26:6|Expecting digit in radix 2
+@E: CG353 :"D:\FPGA\example\test2\number.v":27:21:27:24|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":27:21:27:32|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":28:15:28:18|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":28:15:28:26|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":29:15:29:18|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":29:15:29:26|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":30:15:30:18|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":30:15:30:26|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":32:3:32:6|Expecting digit in radix 2
+@E: CG353 :"D:\FPGA\example\test2\number.v":33:18:33:21|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":33:18:33:29|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":34:15:34:18|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":34:15:34:26|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":35:15:35:18|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":35:15:35:26|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":36:15:36:18|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":36:15:36:26|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":38:3:38:6|Expecting digit in radix 2
+@E: CG353 :"D:\FPGA\example\test2\number.v":39:21:39:24|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":39:21:39:32|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":40:15:40:18|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":40:15:40:26|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":41:15:41:18|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":41:15:41:26|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":42:15:42:18|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":42:15:42:26|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":44:3:44:6|Expecting digit in radix 2
+@E: CG353 :"D:\FPGA\example\test2\number.v":45:21:45:24|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":45:21:45:32|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":46:15:46:18|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":46:15:46:26|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":47:15:47:18|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":47:15:47:26|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":48:15:48:18|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":48:15:48:26|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":50:3:50:6|Expecting digit in radix 2
+@E: CG353 :"D:\FPGA\example\test2\number.v":51:21:51:24|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":51:21:51:32|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":52:15:52:18|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":52:15:52:26|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":53:15:53:18|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":53:15:53:26|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":54:15:54:18|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":54:15:54:26|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":56:3:56:6|Expecting digit in radix 2
+@E: CG353 :"D:\FPGA\example\test2\number.v":57:21:57:24|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":57:21:57:32|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":58:15:58:18|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":58:15:58:26|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":59:15:59:18|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":59:15:59:26|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":60:15:60:18|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":60:15:60:26|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":62:3:62:6|Expecting digit in radix 2
+@E: CG353 :"D:\FPGA\example\test2\number.v":63:21:63:24|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":63:21:63:32|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":64:15:64:18|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":64:15:64:26|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":65:15:65:18|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":65:15:65:26|Specified digits overflow the number's size
+@E: CG353 :"D:\FPGA\example\test2\number.v":66:15:66:18|Expecting digit in radix 2
+@W: CG289 :"D:\FPGA\example\test2\number.v":66:15:66:26|Specified digits overflow the number's size
+@E: CS187 :"D:\FPGA\example\test2\number.v":70:0:70:8|Expecting endmodule
+@I::"D:\FPGA\example\test2\temperature_main.v" (library work)
+@E: CG376 :"D:\FPGA\example\test2\temperature_main.v":10:0:10:5|Expecting variable name
+@E: CS187 :"D:\FPGA\example\test2\temperature_main.v":41:0:41:8|Expecting endmodule
+83 syntax errors
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Mar 20 22:18:30 2017
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Mar 20 22:18:30 2017
+
+###########################################################]

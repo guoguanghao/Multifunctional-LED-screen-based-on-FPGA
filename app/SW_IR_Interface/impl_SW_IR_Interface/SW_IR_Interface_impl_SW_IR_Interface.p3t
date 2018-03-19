@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "SW_IR_Interface_impl_SW_IR_Interface.log"
+-o "SW_IR_Interface_impl_SW_IR_Interface.csv"
+-pr "SW_IR_Interface_impl_SW_IR_Interface.prf"

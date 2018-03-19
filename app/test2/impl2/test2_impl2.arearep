@@ -1,0 +1,75 @@
+----------------------------------------------------------------------
+Report for cell main.TECH
+Register bits:  149 of 4635 (3.215%)
+I/O cells:      45
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                 BB         1          100.0
+                              CCU2D        60          100.0
+                            FD1P3AX        72          100.0
+                            FD1P3IX        30          100.0
+                            FD1P3JX         1          100.0
+                             FD1S1A         2          100.0
+                             FD1S1J         6          100.0
+                            FD1S3AX         3          100.0
+                            FD1S3IX        35          100.0
+                                GSR         1          100.0
+                                 IB         2          100.0
+                               LUT4       484          100.0
+                                 OB        42          100.0
+                              PFUMX        49          100.0
+SUB MODULES
+                           DS18B20Z         1
+                         conversion         1
+          counter(COUNTER_NUM=1200)         1
+                           led_scan         1
+                              TOTAL       792
+----------------------------------------------------------------------
+Report for cell conversion.v1
+Instance Path : u2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D         5            8.3
+                               LUT4        87           18.0
+                              PFUMX         3            6.1
+                              TOTAL        95
+----------------------------------------------------------------------
+Report for cell led_scan.v1
+Instance Path : u3
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        33           55.0
+                            FD1P3IX        15           50.0
+                            FD1P3JX         1          100.0
+                             FD1S1A         2          100.0
+                             FD1S1J         6          100.0
+                            FD1S3AX         1           33.3
+                            FD1S3IX        32           91.4
+                               LUT4       172           35.5
+                              PFUMX        23           46.9
+SUB MODULES
+          counter(COUNTER_NUM=1200)         1
+                              TOTAL       286
+----------------------------------------------------------------------
+Report for cell counter(COUNTER_NUM=1200).v1
+Instance Path : u3.clk10KHz_uut
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        33           55.0
+                            FD1S3AX         1           33.3
+                            FD1S3IX        32           91.4
+                               LUT4         1            0.2
+                              TOTAL        67
+----------------------------------------------------------------------
+Report for cell DS18B20Z.v1
+Instance Path : u1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        22           36.7
+                            FD1P3AX        72          100.0
+                            FD1P3IX        15           50.0
+                            FD1S3AX         2           66.7
+                            FD1S3IX         3            8.6
+                               LUT4       218           45.0
+                              PFUMX        21           42.9
+                              TOTAL       353
